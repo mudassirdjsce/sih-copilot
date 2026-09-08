@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "SIH Copilot",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "A review workspace for the SIH 2026 problem-statement portal. Adds status tagging, persistent notes, advanced filters, historical-repeat detection (semantic similarity against 2024–2025 PS datasets), and Team Fit scoring that ranks every PS against your team\u2019s skill matrix \u2014 all locally in your browser.",
   "author": "mudassirdjsce",
   "homepage_url": "https://github.com/mudassirdjsce/sih-copilot",
