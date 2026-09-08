@@ -1,0 +1,548 @@
+/* ================================================================
+   SIH Copilot — Injected Styles
+   All class names prefixed with "sih-" to avoid portal collisions.
+   ================================================================ */
+
+/* ── Design tokens ── */
+:root {
+  --sih-bg:          #0f1117;
+  --sih-surface:     #1a1d27;
+  --sih-surface2:    #22263a;
+  --sih-border:      #2e3350;
+  --sih-accent:      #6366f1;
+  --sih-accent-glow: rgba(99,102,241,.25);
+  --sih-text:        #e2e4f0;
+  --sih-muted:       #7a7f9a;
+  --sih-radius:      8px;
+  --sih-font:        "Inter", "Segoe UI", system-ui, sans-serif;
+
+  --sih-unread-bg:   rgba(255,255,255,.06);
+  --sih-unread-fg:   #9ca3af;
+  --sih-revisit-bg:  rgba(234,179,8,.15);
+  --sih-revisit-fg:  #fbbf24;
+  --sih-selected-bg: rgba(34,197,94,.15);
+  --sih-selected-fg: #4ade80;
+  --sih-rejected-bg: rgba(239,68,68,.15);
+  --sih-rejected-fg: #f87171;
+}
+
+/* ── Google Font ── */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+/* ── Filter sidebar ── */
+#sih-filter-sidebar {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  z-index: 999999;
+  width: 248px;
+  background: var(--sih-surface);
+  border: 1px solid var(--sih-border);
+  border-left: none;
+  border-radius: 0 var(--sih-radius) var(--sih-radius) 0;
+  box-shadow: 4px 0 24px rgba(0,0,0,.4);
+  font-family: var(--sih-font);
+  font-size: 13px;
+  color: var(--sih-text);
+  transition: transform .25s ease;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+#sih-filter-sidebar.sih-sidebar--collapsed {
+  transform: translateX(-192px);
+}
+
+.sih-sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 14px;
+  background: linear-gradient(135deg, #1e2140 0%, #16192b 100%);
+  border-bottom: 1px solid var(--sih-border);
+  border-radius: 0 var(--sih-radius) 0 0;
+}
+
+.sih-sidebar-logo {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--sih-accent);
+  letter-spacing: .3px;
+}
+
+#sih-sidebar-collapse {
+  background: transparent;
+  border: 1px solid var(--sih-border);
+  border-radius: 4px;
+  color: var(--sih-muted);
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  padding: 2px 6px;
+  transition: color .15s, background .15s;
+}
+#sih-sidebar-collapse:hover {
+  color: var(--sih-text);
+  background: var(--sih-surface2);
+}
+
+.sih-sidebar-body {
+  padding: 14px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sih-filter-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .6px;
+  color: var(--sih-muted);
+  margin-bottom: 2px;
+}
+
+.sih-filter-input,
+.sih-filter-select {
+  width: 100%;
+  padding: 7px 10px;
+  background: var(--sih-surface2);
+  border: 1px solid var(--sih-border);
+  border-radius: var(--sih-radius);
+  color: var(--sih-text);
+  font-family: var(--sih-font);
+  font-size: 12px;
+  outline: none;
+  transition: border-color .15s, box-shadow .15s;
+  box-sizing: border-box;
+}
+.sih-filter-input:focus,
+.sih-filter-select:focus {
+  border-color: var(--sih-accent);
+  box-shadow: 0 0 0 3px var(--sih-accent-glow);
+}
+.sih-filter-select option {
+  background: var(--sih-surface2);
+}
+
+.sih-filter-stats {
+  font-size: 11px;
+  color: var(--sih-muted);
+  text-align: center;
+  padding: 4px 0;
+}
+
+.sih-reset-btn {
+  width: 100%;
+  padding: 8px;
+  background: transparent;
+  border: 1px solid var(--sih-border);
+  border-radius: var(--sih-radius);
+  color: var(--sih-muted);
+  font-family: var(--sih-font);
+  font-size: 12px;
+  cursor: pointer;
+  transition: color .15s, border-color .15s, background .15s;
+}
+.sih-reset-btn:hover {
+  color: var(--sih-text);
+  border-color: var(--sih-accent);
+  background: var(--sih-accent-glow);
+}
+
+/* ── Section divider ── */
+.sih-section-divider {
+  height: 1px;
+  background: var(--sih-border);
+  margin: 8px 0;
+}
+
+/* ── Team Fit filter radios ── */
+.sih-fit-radios {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+.sih-radio-lbl {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--sih-text);
+  cursor: pointer;
+  padding: 2px 0;
+}
+.sih-radio-lbl input[type="radio"] { accent-color: var(--sih-accent); cursor: pointer; }
+
+/* Custom threshold slider row */
+.sih-fit-custom {
+  padding: 4px 0 2px;
+}
+.sih-fit-custom-hdr {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: var(--sih-muted);
+  margin-bottom: 4px;
+}
+.sih-fit-custom-hdr span:last-child {
+  font-weight: 700;
+  color: var(--sih-accent);
+}
+
+/* ── Skill slider shared base (used in sidebar + custom filter) ── */
+.sih-skill-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  background:
+    linear-gradient(
+      to right,
+      var(--sih-accent) 0%,
+      var(--sih-accent) var(--sfill, 50%),
+      var(--sih-border) var(--sfill, 50%),
+      var(--sih-border) 100%
+    );
+}
+.sih-skill-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: var(--sih-accent);
+  border: 2px solid #fff;
+  box-shadow: 0 0 4px var(--sih-accent-glow);
+  cursor: pointer;
+  transition: transform .1s;
+}
+.sih-skill-slider::-webkit-slider-thumb:hover { transform: scale(1.2); }
+.sih-skill-slider::-moz-range-thumb {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: var(--sih-accent);
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+/* ── My Team Skills panel ── */
+.sih-skills-section {
+  margin: 0;
+}
+.sih-skills-toggle {
+  width: 100%;
+  background: none;
+  border: none;
+  color: var(--sih-muted);
+  font-family: var(--sih-font);
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .6px;
+  cursor: pointer;
+  text-align: left;
+  padding: 4px 0 6px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: color .15s;
+}
+.sih-skills-toggle:hover { color: var(--sih-text); }
+
+.sih-skills-hint {
+  font-size: 11px;
+  color: var(--sih-muted);
+  line-height: 1.5;
+  margin-bottom: 8px;
+  padding: 6px 8px;
+  background: rgba(99,102,241,.08);
+  border-radius: 6px;
+  border-left: 2px solid var(--sih-accent);
+}
+
+.sih-skill-row {
+  margin-bottom: 8px;
+}
+.sih-skill-hdr {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 3px;
+}
+.sih-skill-lbl {
+  font-size: 11px;
+  color: var(--sih-text);
+}
+.sih-skill-val {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--sih-accent);
+  min-width: 28px;
+  text-align: right;
+}
+
+.sih-skills-save-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+}
+.sih-save-btn {
+  flex: 0 0 auto;
+  padding: 6px 12px;
+  background: var(--sih-accent);
+  border: none;
+  border-radius: var(--sih-radius);
+  color: #fff;
+  font-family: var(--sih-font);
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .15s, transform .1s;
+}
+.sih-save-btn:hover { background: #4f51cc; transform: translateY(-1px); }
+.sih-save-status {
+  font-size: 11px;
+  font-weight: 500;
+}
+.sih-save-status--ok { color: #4ade80; }
+
+/* ── Status badge ── */
+.sih-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 9px;
+  border-radius: 20px;
+  font-family: var(--sih-font);
+  font-size: 11px;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity .15s, transform .1s;
+  white-space: nowrap;
+}
+.sih-badge:hover {
+  opacity: .85;
+  transform: scale(1.04);
+}
+.sih-badge:active {
+  transform: scale(.97);
+}
+
+.sih-status--unread   { background: var(--sih-unread-bg);   color: var(--sih-unread-fg);   }
+.sih-status--revisit  { background: var(--sih-revisit-bg);  color: var(--sih-revisit-fg);  }
+.sih-status--selected { background: var(--sih-selected-bg); color: var(--sih-selected-fg); }
+.sih-status--rejected { background: var(--sih-rejected-bg); color: var(--sih-rejected-fg); }
+
+/* ── Row controls wrapper ── */
+.sih-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+
+/* ── Notes toggle button ── */
+.sih-notes-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 9px;
+  background: transparent;
+  border: 1px solid var(--sih-border);
+  border-radius: 20px;
+  color: var(--sih-muted);
+  font-family: var(--sih-font);
+  font-size: 11px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color .15s, border-color .15s, background .15s;
+  white-space: nowrap;
+}
+.sih-notes-btn:hover,
+.sih-notes-btn--open {
+  color: var(--sih-accent);
+  border-color: var(--sih-accent);
+  background: var(--sih-accent-glow);
+}
+
+/* ── Notes panel ── */
+.sih-notes-wrap {
+  margin-top: 6px;
+  animation: sih-fadein .18s ease;
+}
+
+.sih-notes-ta {
+  width: 100%;
+  padding: 8px 10px;
+  background: var(--sih-surface2);
+  border: 1px solid var(--sih-border);
+  border-radius: var(--sih-radius);
+  color: var(--sih-text);
+  font-family: var(--sih-font);
+  font-size: 12px;
+  resize: vertical;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color .15s, box-shadow .15s;
+}
+.sih-notes-ta:focus {
+  border-color: var(--sih-accent);
+  box-shadow: 0 0 0 3px var(--sih-accent-glow);
+}
+.sih-notes-ta::placeholder {
+  color: var(--sih-muted);
+}
+
+@keyframes sih-fadein {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Phase 2: Similarity badges ── */
+.sih-sim-wrap {
+  display: inline-block;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+
+.sih-sim-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: 99px;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: var(--sih-font);
+  cursor: pointer;
+  user-select: none;
+  background: rgba(251, 146, 60, .15);
+  color: #fb923c;
+  border: 1px solid rgba(251, 146, 60, .35);
+  transition: background .15s, border-color .15s, transform .1s;
+  white-space: nowrap;
+}
+.sih-sim-pill:hover {
+  background: rgba(251, 146, 60, .28);
+  border-color: rgba(251, 146, 60, .6);
+  transform: translateY(-1px);
+}
+.sih-sim-pill--open {
+  background: rgba(251, 146, 60, .30);
+  border-color: #fb923c;
+}
+
+/* Expandable detail panel */
+.sih-sim-detail {
+  margin-top: 5px;
+  padding: 6px 8px;
+  background: #1e2030;
+  border: 1px solid rgba(251, 146, 60, .25);
+  border-radius: var(--sih-radius);
+  animation: sih-fadein .15s ease;
+  min-width: 320px;
+  max-width: 480px;
+}
+
+.sih-sim-item {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 3px 0;
+  border-bottom: 1px solid rgba(255,255,255,.05);
+  font-family: var(--sih-font);
+  font-size: 12px;
+  line-height: 1.4;
+}
+.sih-sim-item:last-child { border-bottom: none; }
+
+.sih-sim-score {
+  flex: 0 0 36px;
+  text-align: right;
+  font-weight: 700;
+  color: #fb923c;
+  font-size: 11px;
+}
+.sih-sim-year {
+  flex: 0 0 52px;
+  font-weight: 600;
+  color: #a5b4fc;
+  font-size: 11px;
+}
+.sih-sim-title {
+  flex: 1 1 auto;
+  color: var(--sih-text);
+  font-size: 11px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ── Phase 3a: Major-domain tag (informational only) ── */
+.sih-domain-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 6px;
+  border-radius: 99px;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: var(--sih-font);
+  letter-spacing: 0.03em;
+  background: rgba(148, 163, 184, 0.10);
+  border: 1px solid rgba(148, 163, 184, 0.20);
+  color: #94a3b8;
+  margin-left: 4px;
+  vertical-align: middle;
+  white-space: nowrap;
+  user-select: none;
+  cursor: default;
+}
+
+/* ── Phase 3b: Team-fit badge ── */
+.sih-fit-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 2px 7px;
+  border-radius: 99px;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: var(--sih-font);
+  cursor: help;
+  user-select: none;
+  margin-left: 4px;
+  vertical-align: middle;
+  white-space: nowrap;
+  transition: transform .1s;
+}
+.sih-fit-pill:hover { transform: translateY(-1px); }
+
+/* Green — strong match (score ≥ 70) */
+.sih-fit-pill--high {
+  background: rgba(74, 222, 128, .15);
+  color: #4ade80;
+  border: 1px solid rgba(74, 222, 128, .35);
+}
+/* Amber — partial match (40–69) */
+.sih-fit-pill--mid {
+  background: rgba(251, 191, 36, .15);
+  color: #fbbf24;
+  border: 1px solid rgba(251, 191, 36, .35);
+}
+/* Red — weak match (< 40) */
+.sih-fit-pill--low {
+  background: rgba(248, 113, 113, .15);
+  color: #f87171;
+  border: 1px solid rgba(248, 113, 113, .35);
+}
+

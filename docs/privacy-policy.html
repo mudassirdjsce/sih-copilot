@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — SIH Copilot</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --surface: #1e293b;
+      --border: #334155;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --accent: #6366f1;
+      --font: "Segoe UI", system-ui, -apple-system, sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font);
+      font-size: 16px;
+      line-height: 1.7;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    header .badge {
+      display: inline-block;
+      background: rgba(99,102,241,0.15);
+      border: 1px solid rgba(99,102,241,0.35);
+      color: #a5b4fc;
+      border-radius: 99px;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 2px 10px;
+      margin-bottom: 0.75rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    h1 {
+      font-size: 1.9rem;
+      font-weight: 700;
+      color: #f8fafc;
+      margin-bottom: 0.25rem;
+    }
+    .meta {
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #f1f5f9;
+      margin: 2rem 0 0.6rem;
+      padding-left: 0.75rem;
+      border-left: 3px solid var(--accent);
+    }
+    p { color: var(--muted); margin-bottom: 0.75rem; }
+    ul {
+      color: var(--muted);
+      padding-left: 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+    li { margin-bottom: 0.35rem; }
+    strong { color: var(--text); font-weight: 600; }
+    a { color: #818cf8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .highlight {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin: 1rem 0;
+      color: var(--muted);
+    }
+    .highlight strong { color: #4ade80; }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <div class="badge">Chrome Extension</div>
+      <h1>SIH Copilot — Privacy Policy</h1>
+      <p class="meta">
+        Effective date: September 2026 &nbsp;·&nbsp;
+        Extension version: 0.3.0
+      </p>
+    </header>
+
+    <div class="highlight">
+      <strong>Short version:</strong> SIH Copilot does not collect, transmit, or
+      share any personal data. Everything you enter (team skills, notes, status
+      tags) stays on your own device. No account is required.
+    </div>
+
+    <!-- 1 -->
+    <h2>1. What SIH Copilot does</h2>
+    <p>
+      SIH Copilot is a Chrome extension that overlays the official Smart India
+      Hackathon (SIH) problem-statement portal
+      (<a href="https://www.sih.gov.in" target="_blank">sih.gov.in</a>)
+      with a personal review workspace. It adds status tagging, persistent notes,
+      advanced filters, historical-repeat detection, and Team Fit scoring to help
+      participants evaluate problem statements efficiently.
+    </p>
+
+    <!-- 2 -->
+    <h2>2. Data stored locally on your device</h2>
+    <p>
+      The following data is saved in your browser's
+      <strong>chrome.storage.local</strong> storage. It never leaves your device:
+    </p>
+    <ul>
+      <li>
+        <strong>PS status tags</strong> — your Unread / Revisit / Selected /
+        Rejected label per problem statement.
+      </li>
+      <li>
+        <strong>Notes</strong> — free-text notes you write for individual
+        problem statements.
+      </li>
+      <li>
+        <strong>Team skill matrix</strong> — the domain skill ratings
+        (AI/ML, Web, Hardware, etc.) you enter in the "My Team Skills" panel.
+      </li>
+      <li>
+        <strong>Historical dataset cache</strong> — a cached copy of the bundled
+        historical problem-statement dataset, kept for fast access between
+        browser sessions.
+      </li>
+    </ul>
+    <p>
+      None of this data is uploaded to any server, shared with any third party,
+      or accessible outside your browser.
+    </p>
+
+    <!-- 3 -->
+    <h2>3. Data read from the SIH portal</h2>
+    <p>
+      The extension reads problem-statement information (title, description,
+      organization, category, theme) directly from the
+      <a href="https://www.sih.gov.in" target="_blank">sih.gov.in</a> page you
+      are already viewing. This data is processed locally to display badges and
+      compute scores. It is not stored beyond what is described in section 2,
+      and it is never transmitted to any external server.
+    </p>
+
+    <!-- 4 -->
+    <h2>4. Network requests made by the extension</h2>
+    <p>The extension makes the following network requests:</p>
+    <ul>
+      <li>
+        <strong>Historical embeddings &amp; domain relevance data</strong> —
+        Fetched from the extension package itself
+        (<code>chrome.runtime.getURL()</code>). These are static, pre-computed
+        JSON files bundled with the extension. No external server is contacted
+        for this data.
+      </li>
+      <li>
+        <strong>Sentence-embedding model weights</strong> — On first use of the
+        historical-similarity feature, the extension downloads the
+        <a href="https://huggingface.co/Xenova/all-MiniLM-L6-v2" target="_blank">
+          Xenova/all-MiniLM-L6-v2
+        </a>
+        model weights from the
+        <a href="https://huggingface.co" target="_blank">Hugging Face Hub</a>
+        CDN. After the first download these weights are cached by your browser
+        and no further download occurs. The model runs entirely inside your
+        browser — no text or problem-statement content is sent to Hugging Face.
+      </li>
+      <li>
+        <strong>ONNX WebAssembly runtime</strong> — The ONNX runtime WASM binary
+        used to run the model is fetched from
+        <a href="https://cdn.jsdelivr.net" target="_blank">cdn.jsdelivr.net</a>
+        on first use and cached by the browser thereafter.
+      </li>
+    </ul>
+    <p>
+      <strong>In summary:</strong> only anonymous, non-identifiable static assets
+      (model weights, a WASM binary) are downloaded from external CDNs.
+      No user data, no problem-statement text, and no skill matrix entries are
+      ever sent to any external server or API.
+    </p>
+
+    <!-- 5 -->
+    <h2>5. Permissions used and why</h2>
+    <ul>
+      <li>
+        <strong>storage</strong> — to save status tags, notes, and skill matrix
+        in <code>chrome.storage.local</code>.
+      </li>
+      <li>
+        <strong>tabs</strong> — to detect navigation within the SIH portal so
+        the extension can re-initialize when the user navigates between pages.
+      </li>
+      <li>
+        <strong>offscreen</strong> — to run the sentence-embedding model in an
+        offscreen document (a Manifest V3 mechanism for background computation
+        that cannot run in a service worker).
+      </li>
+      <li>
+        <strong>host_permissions: https://www.sih.gov.in/*</strong> — to inject
+        the content script and read problem-statement data only on the SIH
+        portal. The extension is not active on any other website.
+      </li>
+    </ul>
+
+    <!-- 6 -->
+    <h2>6. No personal data collected</h2>
+    <p>
+      SIH Copilot does <strong>not</strong>:
+    </p>
+    <ul>
+      <li>Collect your name, email address, or any identifying information.</li>
+      <li>Require an account or login.</li>
+      <li>Track your browsing history or activity outside sih.gov.in.</li>
+      <li>Use analytics, telemetry, or crash-reporting services.</li>
+      <li>Share any data with third parties.</li>
+    </ul>
+
+    <!-- 7 -->
+    <h2>7. Third-party services</h2>
+    <p>
+      The extension's network activity is limited to downloading static files
+      from these services:
+    </p>
+    <ul>
+      <li>
+        <a href="https://huggingface.co" target="_blank">Hugging Face</a>
+        (<code>huggingface.co</code>, <code>cdn-lfs.huggingface.co</code>) —
+        for the embedding model weights (anonymous CDN download; no data sent).
+      </li>
+      <li>
+        <a href="https://cdn.jsdelivr.net" target="_blank">jsDelivr</a>
+        (<code>cdn.jsdelivr.net</code>) — for the ONNX WebAssembly runtime
+        binary (anonymous CDN download; no data sent).
+      </li>
+    </ul>
+    <p>
+      These downloads are one-time (cached after first use) and do not involve
+      any user-generated content.
+    </p>
+
+    <!-- 8 -->
+    <h2>8. Data retention and deletion</h2>
+    <p>
+      All locally stored data (status tags, notes, skill matrix, cached dataset)
+      can be deleted at any time by removing the extension from Chrome or by
+      clearing Chrome's extension storage. No data exists anywhere else.
+    </p>
+
+    <!-- 9 -->
+    <h2>9. Changes to this policy</h2>
+    <p>
+      If the extension's data-handling practices change in a future version,
+      this policy will be updated and the effective date revised. The extension
+      version number in the heading above will reflect the version this policy
+      applies to.
+    </p>
+
+    <!-- 10 -->
+    <h2>10. Contact</h2>
+    <p>
+      Questions about this privacy policy can be directed to the extension
+      author via the Chrome Web Store listing page.
+    </p>
+
+    <footer>
+      SIH Copilot is a personal project and is not affiliated with or endorsed
+      by the Smart India Hackathon organizers. &nbsp;·&nbsp;
+      Privacy policy effective September 2026.
+    </footer>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SIH Copilot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="popup-root">
+    <header class="popup-header">
+      <div class="popup-logo">
+        <span class="popup-logo-icon">&#127919;</span>
+        <div>
+          <div class="popup-logo-title">SIH Copilot</div>
+          <div class="popup-logo-sub">Smart India Hackathon</div>
+        </div>
+      </div>
+    </header>
+    <section class="popup-stats" id="popup-stats">
+      <div class="stat-card stat-card--unread" id="stat-unread">
+        <div class="stat-emoji">&#9898;</div>
+        <div class="stat-count" id="count-unread">&#8212;</div>
+        <div class="stat-label">Unread</div>
+      </div>
+      <div class="stat-card stat-card--revisit" id="stat-revisit">
+        <div class="stat-emoji">&#127937;</div>
+        <div class="stat-count" id="count-revisit">&#8212;</div>
+        <div class="stat-label">Revisit</div>
+      </div>
+      <div class="stat-card stat-card--selected" id="stat-selected">
+        <div class="stat-emoji">&#128994;</div>
+        <div class="stat-count" id="count-selected">&#8212;</div>
+        <div class="stat-label">Selected</div>
+      </div>
+      <div class="stat-card stat-card--rejected" id="stat-rejected">
+        <div class="stat-emoji">&#128308;</div>
+        <div class="stat-count" id="count-rejected">&#8212;</div>
+        <div class="stat-label">Rejected</div>
+      </div>
+    </section>
+    <section class="popup-section">
+      <div class="popup-section-title">Session</div>
+      <div class="popup-status-row" id="popup-status-row">
+        <span class="popup-status-dot popup-status-dot--idle"></span>
+        <span id="popup-status-text">Checking portal&#8230;</span>
+      </div>
+    </section>
+    <section class="popup-section">
+      <div class="popup-section-title">Actions</div>
+      <button class="popup-btn" id="btn-clear-all">&#128465; Clear all data</button>
+      <button class="popup-btn popup-btn--accent" id="btn-open-portal">&#8599; Open SIH Portal</button>
+      <button class="popup-btn popup-btn--smoke" id="btn-smoke-test">&#129514; Run Embedding Smoke Test</button>
+      <div id="smoke-result" class="smoke-result" style="display:none"></div>
+    </section>
+    <footer class="popup-footer">Team skills &#8594; SIH page filter panel &#183; v0.3.0</footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

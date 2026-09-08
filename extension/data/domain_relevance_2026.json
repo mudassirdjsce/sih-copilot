@@ -1,0 +1,3417 @@
+{
+  "version": "2026-09-08",
+  "model": "Xenova/all-MiniLM-L6-v2",
+  "softmax_temperature": 0.08,
+  "domains": [
+    "AI/ML",
+    "Web",
+    "Hardware",
+    "Blockchain",
+    "GIS",
+    "Biotech",
+    "Mobile"
+  ],
+  "domainLabels": [
+    "AI / ML",
+    "Web Development",
+    "Hardware / IoT",
+    "Blockchain / Security",
+    "GIS / Geospatial",
+    "Biotech / HealthTech",
+    "Mobile Apps"
+  ],
+  "totalRecords": 226,
+  "records": [
+    {
+      "psId": "26001",
+      "year": 2026,
+      "title": "AI-Based early warning and landslide Risk Monitoring System in NER",
+      "domainRel": {
+        "AI/ML": 0.2472,
+        "Web": 0.1315,
+        "Hardware": 0.2652,
+        "Blockchain": 0.1726,
+        "GIS": 0.3384,
+        "Biotech": 0.1862,
+        "Mobile": 0.1577
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26002",
+      "year": 2026,
+      "title": "Al-Based Smart Logistics and Accessibility Intelligence Platform for North Eastern Region (NER)",
+      "domainRel": {
+        "AI/ML": 0.197,
+        "Web": 0.1759,
+        "Hardware": 0.2757,
+        "Blockchain": 0.0883,
+        "GIS": 0.2638,
+        "Biotech": 0.1747,
+        "Mobile": 0.2989
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26003",
+      "year": 2026,
+      "title": "AI-Based Cognitive Gaming and Memory Assistance Platform for Elderly Dementia Patients in North Eastern Region (NER)",
+      "domainRel": {
+        "AI/ML": 0.282,
+        "Web": 0.1851,
+        "Hardware": 0.1226,
+        "Blockchain": 0.0215,
+        "GIS": 0.1327,
+        "Biotech": 0.1869,
+        "Mobile": 0.1862
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26004",
+      "year": 2026,
+      "title": "Al-Assisted Early Detection System for Osteoarthritis (OA) Risk Markers in North Eastern Region (NER)",
+      "domainRel": {
+        "AI/ML": 0.0616,
+        "Web": 0.1295,
+        "Hardware": 0.0859,
+        "Blockchain": 0.0143,
+        "GIS": 0.194,
+        "Biotech": 0.2184,
+        "Mobile": 0.1714
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26005",
+      "year": 2026,
+      "title": "Solar-Powered Smart Mini Cold Storage System for Fresh Vegetables in North Eastern Region (NER)",
+      "domainRel": {
+        "AI/ML": -0.005,
+        "Web": 0.1426,
+        "Hardware": 0.1684,
+        "Blockchain": 0.0371,
+        "GIS": 0.0982,
+        "Biotech": 0.0831,
+        "Mobile": 0.2281
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26006",
+      "year": 2026,
+      "title": "Development of an Intelligent Freight Forecasting Model for Optimized Vessel Chartering and Bulk Cargo Procurement from overseas to East Coast of India",
+      "domainRel": {
+        "AI/ML": 0.0938,
+        "Web": 0.0246,
+        "Hardware": 0.0059,
+        "Blockchain": 0.0766,
+        "GIS": 0.0379,
+        "Biotech": 0.0171,
+        "Mobile": 0.0962
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26007",
+      "year": 2026,
+      "title": "Safe and Efficient Operation of Mine Vehicles in Fog and Low-Visibility Conditions in Open Cast Iron Ore Mines.",
+      "domainRel": {
+        "AI/ML": 0.0588,
+        "Web": 0.0403,
+        "Hardware": 0.1512,
+        "Blockchain": 0.1667,
+        "GIS": 0.1246,
+        "Biotech": 0.0604,
+        "Mobile": 0.064
+      },
+      "domainTag": "IoT"
+    },
+    {
+      "psId": "26008",
+      "year": 2026,
+      "title": "Belt Joint Rupture and Conveyor Belt Damages in Iron Ore Mining Industry: Intelligent Monitoring and Prediction of Conveyor Belt Joint Rupture and Damages in Iron Ore Mining Industry.",
+      "domainRel": {
+        "AI/ML": 0.1797,
+        "Web": 0.0241,
+        "Hardware": 0.1092,
+        "Blockchain": 0.2209,
+        "GIS": 0.103,
+        "Biotech": 0.0655,
+        "Mobile": -0.0264
+      },
+      "domainTag": "IoT"
+    },
+    {
+      "psId": "26009",
+      "year": 2026,
+      "title": "Using AI/ML and Space Technology to Identify Manganese Reserves and Overcome Production Shortfalls.",
+      "domainRel": {
+        "AI/ML": 0.1882,
+        "Web": 0.0541,
+        "Hardware": 0.0531,
+        "Blockchain": 0.0604,
+        "GIS": 0.1062,
+        "Biotech": 0.0113,
+        "Mobile": 0.0546
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26010",
+      "year": 2026,
+      "title": "Survey/Resurvey of Rural Agricultural Land in lndia",
+      "domainRel": {
+        "AI/ML": -0.0293,
+        "Web": 0.1206,
+        "Hardware": 0.0869,
+        "Blockchain": 0.0408,
+        "GIS": 0.343,
+        "Biotech": 0.0981,
+        "Mobile": 0.1553
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26011",
+      "year": 2026,
+      "title": "3D ULPIN Generation and vertical Property Mapping SYstem",
+      "domainRel": {
+        "AI/ML": 0.026,
+        "Web": 0.138,
+        "Hardware": 0.0863,
+        "Blockchain": 0.0699,
+        "GIS": 0.4537,
+        "Biotech": -0.001,
+        "Mobile": 0.0952
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26012",
+      "year": 2026,
+      "title": "AI-Based Automated Urban Parcel Mapping and Cadastral Feature Extraction System using Drone lmagery",
+      "domainRel": {
+        "AI/ML": 0.2902,
+        "Web": 0.0915,
+        "Hardware": 0.3303,
+        "Blockchain": 0.1062,
+        "GIS": 0.5654,
+        "Biotech": 0.1017,
+        "Mobile": 0.213
+      },
+      "domainTag": "Hardware"
+    },
+    {
+      "psId": "26013",
+      "year": 2026,
+      "title": "Automated lntegration and lntelligent Harmonization of Multi-source Geospatial Data for urban Land Record Management.",
+      "domainRel": {
+        "AI/ML": 0.1175,
+        "Web": 0.1782,
+        "Hardware": 0.1162,
+        "Blockchain": 0.1117,
+        "GIS": 0.633,
+        "Biotech": 0.0863,
+        "Mobile": 0.1011
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26014",
+      "year": 2026,
+      "title": "An lntegrated GIS-based Digital Public lnfrastructure for Land Governance",
+      "domainRel": {
+        "AI/ML": 0.0646,
+        "Web": 0.275,
+        "Hardware": 0.1166,
+        "Blockchain": 0.1744,
+        "GIS": 0.5543,
+        "Biotech": 0.1351,
+        "Mobile": 0.1446
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26015",
+      "year": 2026,
+      "title": "Application of Geospatial Techniques for visualization and analysis to interpret Geo-Coded lmages to enhance watershed Development Outcomes.",
+      "domainRel": {
+        "AI/ML": 0.0824,
+        "Web": 0.1433,
+        "Hardware": 0.0316,
+        "Blockchain": -0.0405,
+        "GIS": 0.5025,
+        "Biotech": 0.0486,
+        "Mobile": 0.0791
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26016",
+      "year": 2026,
+      "title": "Real-Time National Land Acquisition & Management System for End-to-End Digital Monitoring and Decision Support",
+      "domainRel": {
+        "AI/ML": 0.1416,
+        "Web": 0.2127,
+        "Hardware": 0.2774,
+        "Blockchain": 0.1222,
+        "GIS": 0.3905,
+        "Biotech": 0.1282,
+        "Mobile": 0.2523
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26017",
+      "year": 2026,
+      "title": "Predictive Analytics System for Early Detection of Land Acquisition Delays",
+      "domainRel": {
+        "AI/ML": 0.1917,
+        "Web": 0.1487,
+        "Hardware": 0.1798,
+        "Blockchain": 0.0632,
+        "GIS": 0.3493,
+        "Biotech": 0.12,
+        "Mobile": 0.1745
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26018",
+      "year": 2026,
+      "title": "Intelligent Land Record Digitization and Validation System",
+      "domainRel": {
+        "AI/ML": 0.2415,
+        "Web": 0.1875,
+        "Hardware": 0.2038,
+        "Blockchain": 0.1707,
+        "GIS": 0.4418,
+        "Biotech": 0.194,
+        "Mobile": 0.1595
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26019",
+      "year": 2026,
+      "title": "National Digital Platform for Research, Policy Innovation, and Evidence-Based Land Governance",
+      "domainRel": {
+        "AI/ML": 0.0793,
+        "Web": 0.2165,
+        "Hardware": 0.121,
+        "Blockchain": 0.1651,
+        "GIS": 0.3849,
+        "Biotech": 0.0562,
+        "Mobile": 0.1722
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26020",
+      "year": 2026,
+      "title": "Design and Development of Innovative Hand-Spinning Equipment for Enhancing Khadi Artisan Productivity and Income",
+      "domainRel": {
+        "AI/ML": -0.0604,
+        "Web": 0.1479,
+        "Hardware": 0.0891,
+        "Blockchain": -0.0021,
+        "GIS": 0.125,
+        "Biotech": 0.0357,
+        "Mobile": 0.1951
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26021",
+      "year": 2026,
+      "title": "Honey Chain: A block chain-based system for honey traceability and smart beekeeping management.",
+      "domainRel": {
+        "AI/ML": 0.1241,
+        "Web": 0.2714,
+        "Hardware": 0.3387,
+        "Blockchain": 0.3568,
+        "GIS": 0.1316,
+        "Biotech": 0.1847,
+        "Mobile": 0.22
+      },
+      "domainTag": "IoT"
+    },
+    {
+      "psId": "26022",
+      "year": 2026,
+      "title": "Design and develop a smart, solar-powered drying and compact packaging system to support home-based agarbatti manufacturing by rural women artisans.",
+      "domainRel": {
+        "AI/ML": -0.0241,
+        "Web": 0.2178,
+        "Hardware": 0.2014,
+        "Blockchain": -0.0049,
+        "GIS": 0.1769,
+        "Biotech": 0.0285,
+        "Mobile": 0.232
+      },
+      "domainTag": "IoT"
+    },
+    {
+      "psId": "26023",
+      "year": 2026,
+      "title": "AI-Powered Geological, Mining and other Reporting Solution for CMPDI/CIL subsidiaries",
+      "domainRel": {
+        "AI/ML": 0.2639,
+        "Web": 0.1723,
+        "Hardware": 0.1675,
+        "Blockchain": 0.1763,
+        "GIS": 0.3168,
+        "Biotech": 0.1413,
+        "Mobile": -0.0108
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26024",
+      "year": 2026,
+      "title": "AI-Based Smart Governance and Compliance Monitoring System for Coal Mines",
+      "domainRel": {
+        "AI/ML": 0.2534,
+        "Web": 0.1876,
+        "Hardware": 0.2642,
+        "Blockchain": 0.2944,
+        "GIS": 0.2262,
+        "Biotech": 0.1735,
+        "Mobile": 0.041
+      },
+      "domainTag": "App"
+    },
+    {
+      "psId": "26025",
+      "year": 2026,
+      "title": "Development of an AI-enabled Low Cost Real Time Mine Subsidence Monitoring, Prediction and Early Warning System for Underground Coal Mines in India",
+      "domainRel": {
+        "AI/ML": 0.2316,
+        "Web": 0.0867,
+        "Hardware": 0.2108,
+        "Blockchain": 0.1446,
+        "GIS": 0.2927,
+        "Biotech": 0.1231,
+        "Mobile": 0.1271
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26026",
+      "year": 2026,
+      "title": "Development of Mobile (Quadruped)/Handheld Device/System for Real-Time Detection of Narcotics and Explosives across Indian Railways.",
+      "domainRel": {
+        "AI/ML": 0.0699,
+        "Web": 0.0103,
+        "Hardware": 0.1325,
+        "Blockchain": 0.205,
+        "GIS": 0.105,
+        "Biotech": 0.1556,
+        "Mobile": 0.2454
+      },
+      "domainTag": "Cybersecurity"
+    },
+    {
+      "psId": "26027",
+      "year": 2026,
+      "title": "Al-Powered Automatic Block Planning to Maximize Asset Availability for Train Operations on Indian Railways",
+      "domainRel": {
+        "AI/ML": 0.1198,
+        "Web": 0.0287,
+        "Hardware": 0.0983,
+        "Blockchain": 0.033,
+        "GIS": 0.0695,
+        "Biotech": 0.004,
+        "Mobile": 0.1137
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26028",
+      "year": 2026,
+      "title": "Dynamic Forecast of Expected Time of Arrival (ETA) for Coaching Trains",
+      "domainRel": {
+        "AI/ML": 0.1173,
+        "Web": 0.0039,
+        "Hardware": 0.0846,
+        "Blockchain": -0.1244,
+        "GIS": 0.0124,
+        "Biotech": 0.0469,
+        "Mobile": 0.1203
+      },
+      "domainTag": "App"
+    },
+    {
+      "psId": "26029",
+      "year": 2026,
+      "title": "Automated High-Current Short-Circuit Test System for IEC 60898-1:2015 MCB Compliance.",
+      "domainRel": {
+        "AI/ML": 0.0108,
+        "Web": 0.033,
+        "Hardware": 0.0107,
+        "Blockchain": 0.1258,
+        "GIS": 0.0029,
+        "Biotech": 0.0408,
+        "Mobile": -0.0716
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26030",
+      "year": 2026,
+      "title": "Automated Cable Specimen Preparation System for IS 10810 and IS 7098 Compliance.",
+      "domainRel": {
+        "AI/ML": -0.045,
+        "Web": -0.0462,
+        "Hardware": -0.0355,
+        "Blockchain": 0.0474,
+        "GIS": -0.0292,
+        "Biotech": 0.1076,
+        "Mobile": -0.0112
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26031",
+      "year": 2026,
+      "title": "Quality assessment and grading of onions are often subjective and vary across procurement centers, resulting in disputes and inconsistencies.",
+      "domainRel": {
+        "AI/ML": 0.2333,
+        "Web": 0.1039,
+        "Hardware": 0.0572,
+        "Blockchain": 0.0682,
+        "GIS": 0.088,
+        "Biotech": -0.0003,
+        "Mobile": 0.1481
+      },
+      "domainTag": "App"
+    },
+    {
+      "psId": "26032",
+      "year": 2026,
+      "title": "Farmers often face long waiting times, lack of information regarding procurement schedules, and uncertainty about procurement status.",
+      "domainRel": {
+        "AI/ML": 0.0812,
+        "Web": 0.196,
+        "Hardware": 0.1511,
+        "Blockchain": 0.072,
+        "GIS": 0.0931,
+        "Biotech": 0.1928,
+        "Mobile": 0.2939
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26033",
+      "year": 2026,
+      "title": "Multiple intermediaries reduce farmers earnings and increase consumer prices.",
+      "domainRel": {
+        "AI/ML": 0.0497,
+        "Web": 0.1411,
+        "Hardware": 0.2172,
+        "Blockchain": 0.1046,
+        "GIS": 0.0996,
+        "Biotech": 0.1416,
+        "Mobile": 0.2269
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26034",
+      "year": 2026,
+      "title": "Software System to check compliance of Packaged Commodities under Legal Metrology(Packaged Commodities) Rules, 2011 by scanning products, images and labels.",
+      "domainRel": {
+        "AI/ML": 0.0594,
+        "Web": 0.0906,
+        "Hardware": 0.0289,
+        "Blockchain": 0.2024,
+        "GIS": 0.0976,
+        "Biotech": 0.0936,
+        "Mobile": 0.0761
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26035",
+      "year": 2026,
+      "title": "Development of a Software Program/Application for Generation of Test Reports for Non-Automatic Weighing Instruments (NAWI) as per OIML Recommendation R- 76",
+      "domainRel": {
+        "AI/ML": 0.0077,
+        "Web": 0.209,
+        "Hardware": -0.0063,
+        "Blockchain": 0.0457,
+        "GIS": 0.048,
+        "Biotech": 0.1434,
+        "Mobile": 0.1661
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26036",
+      "year": 2026,
+      "title": "Development of an Online Verification System for Weighing and Measuring Instruments",
+      "domainRel": {
+        "AI/ML": 0.0466,
+        "Web": 0.1905,
+        "Hardware": 0.0359,
+        "Blockchain": 0.1351,
+        "GIS": 0.1098,
+        "Biotech": 0.0497,
+        "Mobile": 0.1661
+      },
+      "domainTag": "App"
+    },
+    {
+      "psId": "26037",
+      "year": 2026,
+      "title": "Adaptive Path Planning and Collision Avoidance for Autonomous Vehicles on Unstructured Indian Roads",
+      "domainRel": {
+        "AI/ML": 0.1167,
+        "Web": 0.0648,
+        "Hardware": 0.2458,
+        "Blockchain": 0.0868,
+        "GIS": 0.2556,
+        "Biotech": 0.1059,
+        "Mobile": 0.1379
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26038",
+      "year": 2026,
+      "title": "Explainable AI for Diabetic Retinopathy Screening in Rural India",
+      "domainRel": {
+        "AI/ML": 0.1791,
+        "Web": 0.0936,
+        "Hardware": 0.0811,
+        "Blockchain": -0.0014,
+        "GIS": 0.1195,
+        "Biotech": 0.2616,
+        "Mobile": 0.139
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26039",
+      "year": 2026,
+      "title": "Al-Powered Underground Mine Safety, Monitoring and Rescue System.",
+      "domainRel": {
+        "AI/ML": 0.2102,
+        "Web": 0.0294,
+        "Hardware": 0.3013,
+        "Blockchain": 0.1102,
+        "GIS": 0.2383,
+        "Biotech": 0.1,
+        "Mobile": 0.1155
+      },
+      "domainTag": "Hardware"
+    },
+    {
+      "psId": "26040",
+      "year": 2026,
+      "title": "Smart Water Purification and Quality Monitoring System for Rural and Mining-Affected Areas.",
+      "domainRel": {
+        "AI/ML": 0.1399,
+        "Web": 0.0957,
+        "Hardware": 0.2022,
+        "Blockchain": 0.0991,
+        "GIS": 0.1329,
+        "Biotech": 0.0987,
+        "Mobile": 0.083
+      },
+      "domainTag": "IoT"
+    },
+    {
+      "psId": "26041",
+      "year": 2026,
+      "title": "AR-Based Vocational Training Simulator for Industrial Safety in Jharkhand's Mining & Manufacturing Sector",
+      "domainRel": {
+        "AI/ML": 0.1309,
+        "Web": 0.0651,
+        "Hardware": 0.128,
+        "Blockchain": 0.0467,
+        "GIS": 0.0979,
+        "Biotech": 0.0987,
+        "Mobile": 0.1345
+      },
+      "domainTag": "App"
+    },
+    {
+      "psId": "26042",
+      "year": 2026,
+      "title": "Al-Powered Vernacular Pedagogy and Real-Time Translation Tool for Mother Tongue-Based Primary Education",
+      "domainRel": {
+        "AI/ML": 0.1281,
+        "Web": 0.0366,
+        "Hardware": 0.0793,
+        "Blockchain": 0.0024,
+        "GIS": 0.1225,
+        "Biotech": -0.0013,
+        "Mobile": 0.0975
+      },
+      "domainTag": "App"
+    },
+    {
+      "psId": "26043",
+      "year": 2026,
+      "title": "A digital platform to crowdsource societal challenges and facilitate collaborative problem solving through universities and industry partnerships",
+      "domainRel": {
+        "AI/ML": 0.1506,
+        "Web": 0.2043,
+        "Hardware": 0.1253,
+        "Blockchain": 0.1775,
+        "GIS": 0.246,
+        "Biotech": 0.2115,
+        "Mobile": 0.1844
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26044",
+      "year": 2026,
+      "title": "Portal for Academia - Industry collaboration for Skill Mapping, Internships and Placement",
+      "domainRel": {
+        "AI/ML": 0.052,
+        "Web": 0.1727,
+        "Hardware": 0.0708,
+        "Blockchain": 0.0432,
+        "GIS": 0.0767,
+        "Biotech": 0.1131,
+        "Mobile": 0.0602
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26045",
+      "year": 2026,
+      "title": "IP-SAKTI Sahayak a multilingual, RAG-based (source-cited) AI assistant for Intellectual Property and regulatory guidance in Ayurveda, across national and international regimes.",
+      "domainRel": {
+        "AI/ML": 0.0538,
+        "Web": 0.1033,
+        "Hardware": 0.0119,
+        "Blockchain": 0.0699,
+        "GIS": 0.1234,
+        "Biotech": 0.2684,
+        "Mobile": 0.1063
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26046",
+      "year": 2026,
+      "title": "AIIA Clinical Trials Dashboard - a real-time, cloud-based, GCP-compliant Clinical Trial Management System (CTMS) for Ayurveda research, with CDISC/FHIR-interoperable data, role-based KPIs, and integrated ethics, regulatory (CTRI / NDCT Rules 2019) and pharmacovigilance tracking.",
+      "domainRel": {
+        "AI/ML": 0.015,
+        "Web": 0.3171,
+        "Hardware": 0.0244,
+        "Blockchain": 0.0852,
+        "GIS": 0.1234,
+        "Biotech": 0.3211,
+        "Mobile": 0.1939
+      },
+      "domainTag": "Biotech"
+    },
+    {
+      "psId": "26047",
+      "year": 2026,
+      "title": "Patient Case-Taking Software",
+      "domainRel": {
+        "AI/ML": 0.0499,
+        "Web": 0.098,
+        "Hardware": -0.0895,
+        "Blockchain": 0.0309,
+        "GIS": -0.0024,
+        "Biotech": 0.3794,
+        "Mobile": 0.1103
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26048",
+      "year": 2026,
+      "title": "iKwath - a pod-based smart Kwatha (Kadha) maker that prepares a fresh, AFI/API-standardized decoction from coarse powder (yavaku?a c?r?a) on demand, in the shortest practical time without altering the decoctions quality or yield",
+      "domainRel": {
+        "AI/ML": 0.0455,
+        "Web": 0.0901,
+        "Hardware": 0.089,
+        "Blockchain": 0.069,
+        "GIS": 0.0092,
+        "Biotech": 0.0506,
+        "Mobile": 0.1052
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26049",
+      "year": 2026,
+      "title": "Modifications to improve the reliability, efficiency,and lifespan of electrical and electronic equipment and systems in the ambient condition of subzero temperature and low pressure of High Altitude Areas(HAA) and Super High Altitude Areas (SHAA) of Ladakh region.",
+      "domainRel": {
+        "AI/ML": -0.0573,
+        "Web": 0.0455,
+        "Hardware": 0.159,
+        "Blockchain": -0.0193,
+        "GIS": 0.1593,
+        "Biotech": 0.0012,
+        "Mobile": 0.0872
+      },
+      "domainTag": "Hardware"
+    },
+    {
+      "psId": "26050",
+      "year": 2026,
+      "title": "High Altitude Performance Optimization and Robust Design of Anti-Drone System.",
+      "domainRel": {
+        "AI/ML": 0.0065,
+        "Web": 0.0489,
+        "Hardware": 0.3593,
+        "Blockchain": 0.0882,
+        "GIS": 0.2737,
+        "Biotech": 0.0425,
+        "Mobile": 0.1199
+      },
+      "domainTag": "Hardware"
+    },
+    {
+      "psId": "26051",
+      "year": 2026,
+      "title": "Software Based Model Development for Design of Area Specific Shelter for Thermal Comfort Maintenance.",
+      "domainRel": {
+        "AI/ML": -0.0032,
+        "Web": 0.0811,
+        "Hardware": 0.0734,
+        "Blockchain": -0.0474,
+        "GIS": 0.1863,
+        "Biotech": 0.0265,
+        "Mobile": 0.1289
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26052",
+      "year": 2026,
+      "title": "To develop an AI/ML-enabled adaptive noise cancellation (ANC) system that effectively suppresses stationary, non-stationary, and impulsive defence noises while maintaining high speech intelligibility and real-time performance on embedded hardware.",
+      "domainRel": {
+        "AI/ML": 0.0862,
+        "Web": 0.096,
+        "Hardware": 0.3318,
+        "Blockchain": 0.0928,
+        "GIS": 0.0478,
+        "Biotech": 0.0332,
+        "Mobile": 0.0236
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26053",
+      "year": 2026,
+      "title": "Adaptive Variable Resolution 2.5D Lidar Mapping for Dynamic Environment Perception",
+      "domainRel": {
+        "AI/ML": 0.1727,
+        "Web": 0.0776,
+        "Hardware": 0.1375,
+        "Blockchain": -0.008,
+        "GIS": 0.4764,
+        "Biotech": 0.0104,
+        "Mobile": 0.0227
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26054",
+      "year": 2026,
+      "title": "AI-Enabled Real-Time Digital Twin System for Health Monitoring, Fault Prediction and Mission Reliability Enhancement of Aero Piston Engines used in MALE UAVs.",
+      "domainRel": {
+        "AI/ML": 0.1969,
+        "Web": 0.1254,
+        "Hardware": 0.3725,
+        "Blockchain": 0.042,
+        "GIS": 0.2169,
+        "Biotech": 0.2093,
+        "Mobile": 0.1063
+      },
+      "domainTag": "Hardware"
+    },
+    {
+      "psId": "26055",
+      "year": 2026,
+      "title": "Smart Scan strategy for Electronic Warfare",
+      "domainRel": {
+        "AI/ML": 0.0772,
+        "Web": 0.0653,
+        "Hardware": 0.3319,
+        "Blockchain": 0.1876,
+        "GIS": 0.1972,
+        "Biotech": 0.1354,
+        "Mobile": 0.0769
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26056",
+      "year": 2026,
+      "title": "Development of a Real-time Airfare Price Index for India through Automated Web Scraping of Airline and Online Travel Aggregator Portals for Augmentation of the Consumer Price Index (CPI).",
+      "domainRel": {
+        "AI/ML": 0.0334,
+        "Web": 0.1251,
+        "Hardware": 0.0898,
+        "Blockchain": 0.0703,
+        "GIS": 0.0819,
+        "Biotech": 0.0357,
+        "Mobile": 0.2117
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26057",
+      "year": 2026,
+      "title": "AI-Powered Automated Underwater Marine Debris and Anomaly Detection System using Side-Scan Sonar Imagery",
+      "domainRel": {
+        "AI/ML": 0.3159,
+        "Web": 0.1364,
+        "Hardware": 0.2751,
+        "Blockchain": 0.2554,
+        "GIS": 0.239,
+        "Biotech": 0.1283,
+        "Mobile": 0.043
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26058",
+      "year": 2026,
+      "title": "Development of a Low-Power, Real-Time Adaptive Software-Defined Sonar Transmitter Payload for Autonomous Underwater Vehicles (AUVs)",
+      "domainRel": {
+        "AI/ML": 0.0152,
+        "Web": 0.1106,
+        "Hardware": 0.3985,
+        "Blockchain": 0.1238,
+        "GIS": 0.1135,
+        "Biotech": 0.0666,
+        "Mobile": -0.0063
+      },
+      "domainTag": "Hardware"
+    },
+    {
+      "psId": "26059",
+      "year": 2026,
+      "title": "AI-Enabled Antarctic Sea-Ice, Iceberg Trajectory, and Navigation Decision Support System",
+      "domainRel": {
+        "AI/ML": 0.3316,
+        "Web": 0.1466,
+        "Hardware": 0.2412,
+        "Blockchain": 0.1033,
+        "GIS": 0.32,
+        "Biotech": 0.0893,
+        "Mobile": 0.0264
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26060",
+      "year": 2026,
+      "title": "Digital Platform for efficient remote management of Indian Antarctic Research Stations",
+      "domainRel": {
+        "AI/ML": 0.0297,
+        "Web": 0.2286,
+        "Hardware": 0.2624,
+        "Blockchain": 0.1178,
+        "GIS": 0.3699,
+        "Biotech": 0.1234,
+        "Mobile": 0.2579
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26061",
+      "year": 2026,
+      "title": "AI-Driven Smart Energy Management System for Polar Research Stations",
+      "domainRel": {
+        "AI/ML": 0.2957,
+        "Web": 0.0979,
+        "Hardware": 0.2225,
+        "Blockchain": 0.0533,
+        "GIS": 0.1368,
+        "Biotech": 0.0737,
+        "Mobile": 0.0959
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26062",
+      "year": 2026,
+      "title": "Integrated Polar Expedition Logistics and Asset Management System",
+      "domainRel": {
+        "AI/ML": 0.1091,
+        "Web": 0.2598,
+        "Hardware": 0.2478,
+        "Blockchain": 0.0295,
+        "GIS": 0.2481,
+        "Biotech": 0.1569,
+        "Mobile": 0.148
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26063",
+      "year": 2026,
+      "title": "Integrated Polar Science Outreach, Knowledge Repository and Media Dissemination Portal",
+      "domainRel": {
+        "AI/ML": 0.0256,
+        "Web": 0.2058,
+        "Hardware": 0.0586,
+        "Blockchain": -0.0152,
+        "GIS": 0.2587,
+        "Biotech": 0.1806,
+        "Mobile": 0.0576
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26064",
+      "year": 2026,
+      "title": "Low-Cost Deployable Seafloor Metal Detection Sensor for Ocean Resource Exploration",
+      "domainRel": {
+        "AI/ML": 0.1581,
+        "Web": 0.0546,
+        "Hardware": 0.2443,
+        "Blockchain": 0.172,
+        "GIS": 0.1652,
+        "Biotech": 0.0387,
+        "Mobile": 0.0451
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26065",
+      "year": 2026,
+      "title": "Autonomous Low-Cost Ocean Observation Platform for Polar and Southern Oceans",
+      "domainRel": {
+        "AI/ML": 0.0585,
+        "Web": 0.173,
+        "Hardware": 0.2615,
+        "Blockchain": 0.0464,
+        "GIS": 0.2276,
+        "Biotech": -0.0053,
+        "Mobile": 0.0852
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26066",
+      "year": 2026,
+      "title": "OceanEmbed - Satellite Embedding-Based Deep Learning Framework for Reconstruction of Subsurface Ocean Temperature from Surface Satellite Observations.",
+      "domainRel": {
+        "AI/ML": 0.2486,
+        "Web": 0.0839,
+        "Hardware": 0.0759,
+        "Blockchain": 0.0231,
+        "GIS": 0.15,
+        "Biotech": 0.0182,
+        "Mobile": 0.0479
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26067",
+      "year": 2026,
+      "title": "Develop a web-based interactive 3D visualization platform that integrates numerical ocean model outputs and in-situ observations.",
+      "domainRel": {
+        "AI/ML": 0.1498,
+        "Web": 0.2587,
+        "Hardware": 0.0583,
+        "Blockchain": 0.0346,
+        "GIS": 0.2959,
+        "Biotech": 0.0059,
+        "Mobile": 0.1207
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26068",
+      "year": 2026,
+      "title": "WeatherGPT: Conversational AI for Weather Forecasting, Alerts, and Climate Information",
+      "domainRel": {
+        "AI/ML": 0.2757,
+        "Web": 0.1312,
+        "Hardware": 0.2238,
+        "Blockchain": 0.0294,
+        "GIS": 0.2382,
+        "Biotech": 0.1864,
+        "Mobile": 0.2041
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26069",
+      "year": 2026,
+      "title": "National Weather Big Data Analytics Platform",
+      "domainRel": {
+        "AI/ML": 0.1766,
+        "Web": 0.2363,
+        "Hardware": 0.2307,
+        "Blockchain": 0.0578,
+        "GIS": 0.3057,
+        "Biotech": 0.2067,
+        "Mobile": 0.27
+      },
+      "domainTag": "Data"
+    },
+    {
+      "psId": "26070",
+      "year": 2026,
+      "title": "To develop an Artificial Intelligence (AI) / Machine Learning (ML) based system for identification, classification, and prediction of different tropical cyclone patterns using multi-source satellite data.",
+      "domainRel": {
+        "AI/ML": 0.323,
+        "Web": 0.1239,
+        "Hardware": 0.2687,
+        "Blockchain": 0.0994,
+        "GIS": 0.351,
+        "Biotech": 0.1785,
+        "Mobile": 0.0806
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26071",
+      "year": 2026,
+      "title": "AI/ML-Based Integrated heavy rainfall Early Warning and Inundation Prediction System using Satellite, Radar, observational Weather and numerical weather prediction model data.",
+      "domainRel": {
+        "AI/ML": 0.2354,
+        "Web": 0.15,
+        "Hardware": 0.3103,
+        "Blockchain": 0.0632,
+        "GIS": 0.3066,
+        "Biotech": 0.1304,
+        "Mobile": 0.095
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26072",
+      "year": 2026,
+      "title": "AIML based Nowcasting of thunderstorm and lightning using atmospheric observation including multiple radars, satellite, lightning and model data.",
+      "domainRel": {
+        "AI/ML": 0.031,
+        "Web": 0.1556,
+        "Hardware": 0.2803,
+        "Blockchain": 0.0467,
+        "GIS": 0.3382,
+        "Biotech": 0.0896,
+        "Mobile": 0.217
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26073",
+      "year": 2026,
+      "title": "AI/ML-Based Intelligent Anomaly Detection for Automatic Weather Stations (AWS)",
+      "domainRel": {
+        "AI/ML": 0.3487,
+        "Web": 0.1652,
+        "Hardware": 0.3663,
+        "Blockchain": 0.1681,
+        "GIS": 0.2904,
+        "Biotech": 0.1835,
+        "Mobile": 0.114
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26074",
+      "year": 2026,
+      "title": "Downscaling of weather forecast from Block level to Panchayat level: Inferring high-resolution plots/ data/ information from low-resolution plot /data /information /variables for agro-meteorological advisory services.",
+      "domainRel": {
+        "AI/ML": 0.0238,
+        "Web": 0.0476,
+        "Hardware": -0.0115,
+        "Blockchain": 0.0596,
+        "GIS": 0.3183,
+        "Biotech": 0.1096,
+        "Mobile": 0.147
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26075",
+      "year": 2026,
+      "title": "Participants are invited to design and develop **CAPACITY CONNECT A Digital Capacity Building and Learning Management Portal** to support organizational training, competency development, and knowledge sharing through a centralized web-based platform.",
+      "domainRel": {
+        "AI/ML": 0.1103,
+        "Web": 0.3821,
+        "Hardware": 0.061,
+        "Blockchain": 0.1788,
+        "GIS": 0.1334,
+        "Biotech": 0.086,
+        "Mobile": 0.1468
+      },
+      "domainTag": "Web"
+    },
+    {
+      "psId": "26076",
+      "year": 2026,
+      "title": "Development of personalized homepage for 'Mausam' mobile application:",
+      "domainRel": {
+        "AI/ML": 0.0997,
+        "Web": 0.3009,
+        "Hardware": 0.0877,
+        "Blockchain": 0.0524,
+        "GIS": 0.1859,
+        "Biotech": 0.1735,
+        "Mobile": 0.3545
+      },
+      "domainTag": "App"
+    },
+    {
+      "psId": "26077",
+      "year": 2026,
+      "title": "AI-Driven Hyper-Local Early Warning System for Severe Weather Nowcasting",
+      "domainRel": {
+        "AI/ML": 0.1666,
+        "Web": 0.0784,
+        "Hardware": 0.1462,
+        "Blockchain": 0.0962,
+        "GIS": 0.2049,
+        "Biotech": 0.1115,
+        "Mobile": 0.1199
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26078",
+      "year": 2026,
+      "title": "AI-Driven Spatio-Temporal Tracking of Extreme Weather Anomalies in Medium-Range Forecasts",
+      "domainRel": {
+        "AI/ML": 0.1876,
+        "Web": 0.0363,
+        "Hardware": 0.1008,
+        "Blockchain": 0.0854,
+        "GIS": 0.2506,
+        "Biotech": 0.0668,
+        "Mobile": 0.0326
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26079",
+      "year": 2026,
+      "title": "AI-Based Forecast Bust Detection for Medium-Range Weather Forecasts",
+      "domainRel": {
+        "AI/ML": 0.26,
+        "Web": 0.0208,
+        "Hardware": 0.1633,
+        "Blockchain": 0.1022,
+        "GIS": 0.227,
+        "Biotech": 0.1311,
+        "Mobile": 0.0865
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26080",
+      "year": 2026,
+      "title": "Regime-Aware AI Post-Processing of Monsoon Rainfall Forecasts",
+      "domainRel": {
+        "AI/ML": 0.2262,
+        "Web": 0.039,
+        "Hardware": 0.1421,
+        "Blockchain": 0.014,
+        "GIS": 0.2079,
+        "Biotech": 0.1496,
+        "Mobile": 0.0915
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26081",
+      "year": 2026,
+      "title": "Hybrid AINWP Multi-Model Forecast Blending System",
+      "domainRel": {
+        "AI/ML": 0.2336,
+        "Web": 0.0706,
+        "Hardware": 0.1486,
+        "Blockchain": 0.0332,
+        "GIS": 0.1224,
+        "Biotech": -0.0093,
+        "Mobile": 0.0458
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26082",
+      "year": 2026,
+      "title": "Air PollutionWeather Coupled Forecasting System (Delhi NCR Focus)",
+      "domainRel": {
+        "AI/ML": 0.0756,
+        "Web": -0.0202,
+        "Hardware": 0.1018,
+        "Blockchain": 0.0465,
+        "GIS": 0.1961,
+        "Biotech": 0.0764,
+        "Mobile": 0.1498
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26083",
+      "year": 2026,
+      "title": "Extreme Heatwave Early Warning and Human Thermal Stress Index",
+      "domainRel": {
+        "AI/ML": -0.0703,
+        "Web": 0.0079,
+        "Hardware": -0.0231,
+        "Blockchain": 0.0293,
+        "GIS": 0.0727,
+        "Biotech": 0.0866,
+        "Mobile": 0.0518
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26084",
+      "year": 2026,
+      "title": "Convective scale nowcasting for Thunderstorms, Hail & Cloudbursts (06 hr)",
+      "domainRel": {
+        "AI/ML": 0.0711,
+        "Web": 0.0308,
+        "Hardware": 0.0491,
+        "Blockchain": 0.0725,
+        "GIS": 0.2252,
+        "Biotech": 0.0356,
+        "Mobile": 0.1037
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26085",
+      "year": 2026,
+      "title": "Urban Flood Nowcasting System (Drainage and Rainfall Coupling)",
+      "domainRel": {
+        "AI/ML": 0.14,
+        "Web": -0.0485,
+        "Hardware": 0.0114,
+        "Blockchain": 0.04,
+        "GIS": 0.2416,
+        "Biotech": 0.0579,
+        "Mobile": 0.0966
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26086",
+      "year": 2026,
+      "title": "Hyperlocal Monsoon Onset & Break Prediction System (Block/Village Scale)",
+      "domainRel": {
+        "AI/ML": -0.0106,
+        "Web": 0.0396,
+        "Hardware": 0.0047,
+        "Blockchain": -0.0066,
+        "GIS": 0.1406,
+        "Biotech": 0.0788,
+        "Mobile": 0.101
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26087",
+      "year": 2026,
+      "title": "AI-Enabled Cooperative Capacity Building, ERP & Employment Ecosystem",
+      "domainRel": {
+        "AI/ML": 0.2007,
+        "Web": 0.2156,
+        "Hardware": 0.1933,
+        "Blockchain": 0.201,
+        "GIS": 0.2023,
+        "Biotech": 0.1248,
+        "Mobile": 0.1048
+      },
+      "domainTag": "App"
+    },
+    {
+      "psId": "26088",
+      "year": 2026,
+      "title": "Multilingual Cooperative Governance & Legal Assistance Chatbot",
+      "domainRel": {
+        "AI/ML": 0.188,
+        "Web": 0.1821,
+        "Hardware": 0.1635,
+        "Blockchain": 0.1444,
+        "GIS": 0.1371,
+        "Biotech": 0.1597,
+        "Mobile": 0.1545
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26089",
+      "year": 2026,
+      "title": "Cooperative Gig Services Platform for Household & Community Services",
+      "domainRel": {
+        "AI/ML": 0.0702,
+        "Web": 0.2364,
+        "Hardware": 0.1462,
+        "Blockchain": 0.1742,
+        "GIS": 0.1809,
+        "Biotech": 0.1045,
+        "Mobile": 0.2352
+      },
+      "domainTag": "App"
+    },
+    {
+      "psId": "26090",
+      "year": 2026,
+      "title": "AI-Driven Market Linkage and Smart Cataloging Mobile Application for Marginalized Artisans",
+      "domainRel": {
+        "AI/ML": 0.1364,
+        "Web": 0.2176,
+        "Hardware": 0.1433,
+        "Blockchain": 0.1138,
+        "GIS": 0.1339,
+        "Biotech": 0.0915,
+        "Mobile": 0.2669
+      },
+      "domainTag": "App"
+    },
+    {
+      "psId": "26091",
+      "year": 2026,
+      "title": "AI-Driven Hyper-Local Business Advisory and Financial Structuring Assistant for Rural Micro-Entrepreneurs",
+      "domainRel": {
+        "AI/ML": 0.0986,
+        "Web": 0.2003,
+        "Hardware": 0.1158,
+        "Blockchain": 0.1099,
+        "GIS": 0.2053,
+        "Biotech": -0.0044,
+        "Mobile": 0.0551
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26092",
+      "year": 2026,
+      "title": "AI-Driven Scheme Matching for Marginalized Entrepreneurs",
+      "domainRel": {
+        "AI/ML": 0.1315,
+        "Web": 0.0694,
+        "Hardware": 0.0936,
+        "Blockchain": 0.1096,
+        "GIS": 0.1078,
+        "Biotech": 0.0163,
+        "Mobile": 0.0464
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26093",
+      "year": 2026,
+      "title": "AI-Based Real-Time Stress and Trauma Assessment Module for Victims/Complainants Accessing NHAA (14566) and Integrated Portal",
+      "domainRel": {
+        "AI/ML": 0.1507,
+        "Web": 0.2238,
+        "Hardware": 0.1671,
+        "Blockchain": 0.096,
+        "GIS": 0.1069,
+        "Biotech": 0.2907,
+        "Mobile": 0.171
+      },
+      "domainTag": "Cybersecurity"
+    },
+    {
+      "psId": "26094",
+      "year": 2026,
+      "title": "AI-Powered Dynamic Mental Health Monitoring and Distress Prediction System for Victims of Atrocities",
+      "domainRel": {
+        "AI/ML": 0.233,
+        "Web": 0.1622,
+        "Hardware": 0.1476,
+        "Blockchain": 0.1644,
+        "GIS": 0.1037,
+        "Biotech": 0.2505,
+        "Mobile": 0.0548
+      },
+      "domainTag": "App"
+    },
+    {
+      "psId": "26095",
+      "year": 2026,
+      "title": "Smart Real-Time Monitoring & Inspection Mobile App",
+      "domainRel": {
+        "AI/ML": 0.2009,
+        "Web": 0.2317,
+        "Hardware": 0.3084,
+        "Blockchain": 0.2369,
+        "GIS": 0.2633,
+        "Biotech": 0.201,
+        "Mobile": 0.3989
+      },
+      "domainTag": "App"
+    },
+    {
+      "psId": "26096",
+      "year": 2026,
+      "title": "Digital Heritage Archive for Memorials, Manuscripts & Ambedkar: AI-Powered Institutional Archive and Audio-Visual Knowledge Platform",
+      "domainRel": {
+        "AI/ML": 0.1517,
+        "Web": 0.0859,
+        "Hardware": 0.0135,
+        "Blockchain": 0.0785,
+        "GIS": 0.1359,
+        "Biotech": 0.0994,
+        "Mobile": 0.102
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26097",
+      "year": 2026,
+      "title": "AI-Driven voice Assistant for livelihood Mapping and NSQF-Aligned Skilling Recommendations for SC Communities under GIA component of PM-AJAY",
+      "domainRel": {
+        "AI/ML": 0.2147,
+        "Web": 0.1408,
+        "Hardware": 0.1619,
+        "Blockchain": 0.0925,
+        "GIS": 0.1714,
+        "Biotech": 0.0777,
+        "Mobile": 0.1294
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26098",
+      "year": 2026,
+      "title": "Development of a Low-Cost Precision Guidance and Smart Electronic Fuze System for a 155 mm Artillery Shell",
+      "domainRel": {
+        "AI/ML": -0.0762,
+        "Web": 0.0326,
+        "Hardware": 0.1516,
+        "Blockchain": -0.0296,
+        "GIS": 0.0494,
+        "Biotech": -0.0467,
+        "Mobile": 0.036
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26099",
+      "year": 2026,
+      "title": "AI-Driven Standardization and Harmonization of Material Codes Across CPSEs",
+      "domainRel": {
+        "AI/ML": 0.2226,
+        "Web": 0.132,
+        "Hardware": 0.0756,
+        "Blockchain": 0.2055,
+        "GIS": 0.1677,
+        "Biotech": 0.1238,
+        "Mobile": 0.018
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26100",
+      "year": 2026,
+      "title": "AI-Powered Integrated Bid Compliance Verification Platform for GeM Procurement",
+      "domainRel": {
+        "AI/ML": 0.1195,
+        "Web": 0.2116,
+        "Hardware": 0.1602,
+        "Blockchain": 0.2472,
+        "GIS": 0.1937,
+        "Biotech": 0.0621,
+        "Mobile": 0.1153
+      },
+      "domainTag": "Web"
+    },
+    {
+      "psId": "26101",
+      "year": 2026,
+      "title": "Develop an AI enabled learning platform that identifies competency gaps, recommends personalized training through integration with the iGOT Karmayogi ecosystem, and capable of generating Quizzes and Multiple choice questions (MCQs) from uploaded learning materials to strengthen capacity building in India's Official Statistical System.",
+      "domainRel": {
+        "AI/ML": 0.3224,
+        "Web": 0.2023,
+        "Hardware": 0.1648,
+        "Blockchain": 0.0876,
+        "GIS": 0.1723,
+        "Biotech": 0.1926,
+        "Mobile": 0.1592
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26102",
+      "year": 2026,
+      "title": "Development of an AI-powered system to detect anomalies, fraud, and inefficiencies in MPLAD Scheme implementation regd.",
+      "domainRel": {
+        "AI/ML": 0.1399,
+        "Web": 0.169,
+        "Hardware": 0.1447,
+        "Blockchain": 0.2395,
+        "GIS": 0.2119,
+        "Biotech": 0.082,
+        "Mobile": 0.1263
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26103",
+      "year": 2026,
+      "title": "Use case on web-based integrated project-monitoring platform",
+      "domainRel": {
+        "AI/ML": 0.0978,
+        "Web": 0.3018,
+        "Hardware": 0.1869,
+        "Blockchain": 0.2087,
+        "GIS": 0.2082,
+        "Biotech": 0.1484,
+        "Mobile": 0.1721
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26104",
+      "year": 2026,
+      "title": "AI-Powered Real-Time Detection and Prevention of Voice Cloning Impersonation Attacks",
+      "domainRel": {
+        "AI/ML": 0.2885,
+        "Web": 0.0821,
+        "Hardware": 0.1517,
+        "Blockchain": 0.2654,
+        "GIS": 0.0588,
+        "Biotech": 0.109,
+        "Mobile": 0.0015
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26105",
+      "year": 2026,
+      "title": "AI-Powered Continuous Cyber Risk Quantification and Investment Optimization Platform",
+      "domainRel": {
+        "AI/ML": 0.2359,
+        "Web": 0.2121,
+        "Hardware": 0.1705,
+        "Blockchain": 0.3941,
+        "GIS": 0.1272,
+        "Biotech": 0.1389,
+        "Mobile": 0.0516
+      },
+      "domainTag": "Cybersecurity"
+    },
+    {
+      "psId": "26106",
+      "year": 2026,
+      "title": "AI-Powered Email Threat Detection, GeoLocation and Forensic Intelligence Platform",
+      "domainRel": {
+        "AI/ML": 0.1965,
+        "Web": 0.1468,
+        "Hardware": 0.1713,
+        "Blockchain": 0.4035,
+        "GIS": 0.2561,
+        "Biotech": 0.1357,
+        "Mobile": 0.088
+      },
+      "domainTag": "Cybersecurity"
+    },
+    {
+      "psId": "26107",
+      "year": 2026,
+      "title": "Al-powered Intelligent Assistant for Indian Standards and BIS Services for Industries and Consumers",
+      "domainRel": {
+        "AI/ML": 0.1878,
+        "Web": 0.2214,
+        "Hardware": 0.2434,
+        "Blockchain": 0.2006,
+        "GIS": 0.1553,
+        "Biotech": 0.1854,
+        "Mobile": 0.2337
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26108",
+      "year": 2026,
+      "title": "AI-Powered Recommendation Engine for Identifying Applicable Indian Standards for Procurement Specifications",
+      "domainRel": {
+        "AI/ML": 0.2166,
+        "Web": 0.1912,
+        "Hardware": 0.0731,
+        "Blockchain": 0.1849,
+        "GIS": 0.1758,
+        "Biotech": 0.1472,
+        "Mobile": 0.0781
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26109",
+      "year": 2026,
+      "title": "Al-Based Predictive Modelling for Early Forecasting of Bovine Mastitis in lndian Dairy Farms",
+      "domainRel": {
+        "AI/ML": 0.0603,
+        "Web": 0.0547,
+        "Hardware": -0.0022,
+        "Blockchain": 0.0149,
+        "GIS": 0.0297,
+        "Biotech": 0.2417,
+        "Mobile": 0.0675
+      },
+      "domainTag": "App"
+    },
+    {
+      "psId": "26110",
+      "year": 2026,
+      "title": "Development of a Low-Cost Light-weight Milk Chilling Can for Small-Scale Dairy Farmers",
+      "domainRel": {
+        "AI/ML": 0.0423,
+        "Web": 0.1409,
+        "Hardware": 0.021,
+        "Blockchain": -0.0122,
+        "GIS": 0.02,
+        "Biotech": 0.0626,
+        "Mobile": 0.0568
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26111",
+      "year": 2026,
+      "title": "Smart Al-Enabled Rapid Feed and Silage Quality Testing System for Dairy Farmers",
+      "domainRel": {
+        "AI/ML": 0.0961,
+        "Web": 0.1425,
+        "Hardware": 0.2077,
+        "Blockchain": 0.0759,
+        "GIS": 0.05,
+        "Biotech": 0.2573,
+        "Mobile": 0.1477
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26112",
+      "year": 2026,
+      "title": "Design and Develop a Modular Autonomous Mobile Robot (AMR) Platform for Smart Warehouse Automation",
+      "domainRel": {
+        "AI/ML": 0.255,
+        "Web": 0.1679,
+        "Hardware": 0.366,
+        "Blockchain": 0.0632,
+        "GIS": 0.149,
+        "Biotech": 0.0905,
+        "Mobile": 0.1743
+      },
+      "domainTag": "Hardware"
+    },
+    {
+      "psId": "26113",
+      "year": 2026,
+      "title": "Human augmentation technologies are transforming healthcare,rehabilitation, industrial ergonomics, assistive living, sports, and personal mobility by improving human capabilities and enhancing quality of life.",
+      "domainRel": {
+        "AI/ML": 0.2075,
+        "Web": 0.1499,
+        "Hardware": 0.2198,
+        "Blockchain": -0.0463,
+        "GIS": 0.1277,
+        "Biotech": 0.1479,
+        "Mobile": 0.1506
+      },
+      "domainTag": "Hardware"
+    },
+    {
+      "psId": "26114",
+      "year": 2026,
+      "title": "Smart City Site Planning using Autodesk Forma Site Design",
+      "domainRel": {
+        "AI/ML": 0.1343,
+        "Web": 0.2198,
+        "Hardware": 0.1167,
+        "Blockchain": 0.0074,
+        "GIS": 0.3309,
+        "Biotech": -0.0064,
+        "Mobile": 0.2539
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26115",
+      "year": 2026,
+      "title": "Design and Develop a Smart Mobile Medical-Waste Collection and Segregation System",
+      "domainRel": {
+        "AI/ML": 0.1961,
+        "Web": 0.0975,
+        "Hardware": 0.2702,
+        "Blockchain": 0.1365,
+        "GIS": 0.0847,
+        "Biotech": 0.3032,
+        "Mobile": 0.2546
+      },
+      "domainTag": "Hardware"
+    },
+    {
+      "psId": "26116",
+      "year": 2026,
+      "title": "Urban Mixed-Use Design Challenge-Design a centrally located mixed-use building in Autodesk Revit with commercial spaces (Ground + 1st floor) and residential units (up to 8 floors). 1 Level of Basement (Car Parking + EV Charging), Total (B+G+9)(Note: Plot size and all required dimensions may be assumed by students (in mm units).",
+      "domainRel": {
+        "AI/ML": 0.0976,
+        "Web": 0.0912,
+        "Hardware": 0.0311,
+        "Blockchain": 0.058,
+        "GIS": 0.2177,
+        "Biotech": -0.0602,
+        "Mobile": 0.1379
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26117",
+      "year": 2026,
+      "title": "Sovereign On-Premise Agentic AI Workbench using Open-Weight Multimodal LLMs for Confidential Industrial Work",
+      "domainRel": {
+        "AI/ML": 0.3033,
+        "Web": 0.2416,
+        "Hardware": 0.251,
+        "Blockchain": 0.3481,
+        "GIS": 0.2424,
+        "Biotech": 0.1392,
+        "Mobile": 0.1203
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26118",
+      "year": 2026,
+      "title": "Passive Colorimetric H2S Exposure-Dosimeter Wristband with AI-Based Quantitative Reading",
+      "domainRel": {
+        "AI/ML": 0.1152,
+        "Web": 0.0641,
+        "Hardware": 0.0067,
+        "Blockchain": 0.1188,
+        "GIS": 0.0064,
+        "Biotech": 0.118,
+        "Mobile": 0.0212
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26119",
+      "year": 2026,
+      "title": "Indigenous GPU-Accelerated Optimization Solver (Sovereign Alternative to Express / CEPLEX)",
+      "domainRel": {
+        "AI/ML": 0.2533,
+        "Web": 0.0853,
+        "Hardware": 0.1098,
+        "Blockchain": 0.0865,
+        "GIS": 0.07,
+        "Biotech": 0.0906,
+        "Mobile": 0.013
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26120",
+      "year": 2026,
+      "title": "Digital Twin for Well-to-Surface Optimization of Cyclic Steam Stimulation (CSS) and Sucker Rod Pump (SRP) Operations for Heavy Oil Wells of Baghewala Field.",
+      "domainRel": {
+        "AI/ML": 0.1206,
+        "Web": 0.0003,
+        "Hardware": 0.0908,
+        "Blockchain": 0.0743,
+        "GIS": 0.179,
+        "Biotech": 0.0015,
+        "Mobile": 0.0399
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26121",
+      "year": 2026,
+      "title": "eRTMAC-NWIS (Nearby Wells Intelligence System): An AI-Powered Offset Well Knowledge and Decision Support Platform for Drilling Operations",
+      "domainRel": {
+        "AI/ML": 0.2933,
+        "Web": 0.2693,
+        "Hardware": 0.2722,
+        "Blockchain": 0.2167,
+        "GIS": 0.3742,
+        "Biotech": 0.2125,
+        "Mobile": 0.1179
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26122",
+      "year": 2026,
+      "title": "Intelligent Data Capture & Schedule-Linking Layer for Infrastructure Project Management: Real-Time Actual Progress Tracking (Planning-to-Execution Bridge)",
+      "domainRel": {
+        "AI/ML": 0.1818,
+        "Web": 0.276,
+        "Hardware": 0.1815,
+        "Blockchain": 0.1322,
+        "GIS": 0.2338,
+        "Biotech": 0.1879,
+        "Mobile": 0.1975
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26123",
+      "year": 2026,
+      "title": "Edge-AI Based Distributed Fleet Coordination for Autonomous Mobile Robots (AMRs) in Smart Warehouses",
+      "domainRel": {
+        "AI/ML": 0.2361,
+        "Web": 0.1989,
+        "Hardware": 0.3951,
+        "Blockchain": 0.1532,
+        "GIS": 0.1583,
+        "Biotech": 0.0381,
+        "Mobile": 0.1609
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26124",
+      "year": 2026,
+      "title": "AI-Powered Mobile Urban Intelligence Platform Using Public Transport Fleet",
+      "domainRel": {
+        "AI/ML": 0.3309,
+        "Web": 0.1154,
+        "Hardware": 0.33,
+        "Blockchain": 0.1378,
+        "GIS": 0.2961,
+        "Biotech": 0.1956,
+        "Mobile": 0.302
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26125",
+      "year": 2026,
+      "title": "Blockchain-Based Secure Platform for Identity,Access Control, and Digital Asset Management",
+      "domainRel": {
+        "AI/ML": 0.0445,
+        "Web": 0.3245,
+        "Hardware": 0.1313,
+        "Blockchain": 0.5463,
+        "GIS": 0.1,
+        "Biotech": 0.0988,
+        "Mobile": 0.1535
+      },
+      "domainTag": "Blockchain"
+    },
+    {
+      "psId": "26126",
+      "year": 2026,
+      "title": "Vision Based Autonomous Navigation for Unmanned Ground Vehicle for Outdoor environment",
+      "domainRel": {
+        "AI/ML": 0.3128,
+        "Web": 0.1595,
+        "Hardware": 0.3836,
+        "Blockchain": 0.0594,
+        "GIS": 0.4096,
+        "Biotech": 0.0596,
+        "Mobile": 0.1432
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26127",
+      "year": 2026,
+      "title": "City-Wide AI Engine for Multi-Camera ANPR Trajectory Tracking and Urban Traffic Analytics",
+      "domainRel": {
+        "AI/ML": 0.329,
+        "Web": -0.0032,
+        "Hardware": 0.2189,
+        "Blockchain": 0.1494,
+        "GIS": 0.2881,
+        "Biotech": 0.1255,
+        "Mobile": 0.1283
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26128",
+      "year": 2026,
+      "title": "Efficient systems for early detection,prevention,and management of livestock diseases and animal health issues",
+      "domainRel": {
+        "AI/ML": 0.0781,
+        "Web": 0.1288,
+        "Hardware": 0.1505,
+        "Blockchain": 0.118,
+        "GIS": 0.139,
+        "Biotech": 0.4936,
+        "Mobile": 0.1677
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26129",
+      "year": 2026,
+      "title": "System integration and interoperability among government digital platforms,resulting in fragmented service delivery",
+      "domainRel": {
+        "AI/ML": 0.0846,
+        "Web": 0.3358,
+        "Hardware": 0.1305,
+        "Blockchain": 0.2091,
+        "GIS": 0.2938,
+        "Biotech": 0.1303,
+        "Mobile": 0.1858
+      },
+      "domainTag": "App"
+    },
+    {
+      "psId": "26130",
+      "year": 2026,
+      "title": "Efficiency in streamlining industrial approvals,compliance processes,and access to government support services",
+      "domainRel": {
+        "AI/ML": 0.0759,
+        "Web": 0.2183,
+        "Hardware": 0.0958,
+        "Blockchain": 0.1502,
+        "GIS": 0.1661,
+        "Biotech": 0.1473,
+        "Mobile": 0.0702
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26131",
+      "year": 2026,
+      "title": "Early detection and management of crop diseases and pest infestations",
+      "domainRel": {
+        "AI/ML": 0.0856,
+        "Web": 0.0374,
+        "Hardware": 0.1237,
+        "Blockchain": 0.0354,
+        "GIS": 0.0676,
+        "Biotech": 0.2152,
+        "Mobile": 0.0754
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26132",
+      "year": 2026,
+      "title": "Strengthening market linkages and price discovery for farmers",
+      "domainRel": {
+        "AI/ML": -0.0242,
+        "Web": 0.0804,
+        "Hardware": 0.1174,
+        "Blockchain": 0.0651,
+        "GIS": 0.0568,
+        "Biotech": 0.15,
+        "Mobile": 0.1574
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26133",
+      "year": 2026,
+      "title": "Accessibility and quality of public healthcare services,particularly in rural and underserved areas",
+      "domainRel": {
+        "AI/ML": -0.0415,
+        "Web": 0.0712,
+        "Hardware": 0.0136,
+        "Blockchain": -0.0428,
+        "GIS": 0.185,
+        "Biotech": 0.3093,
+        "Mobile": 0.2084
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26134",
+      "year": 2026,
+      "title": "Challenges in aligning skill development programs with industry requirements and emerging job market demands",
+      "domainRel": {
+        "AI/ML": 0.1168,
+        "Web": 0.0187,
+        "Hardware": 0.1212,
+        "Blockchain": -0.0066,
+        "GIS": 0.1323,
+        "Biotech": 0.1597,
+        "Mobile": 0.1329
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26135",
+      "year": 2026,
+      "title": "Difficulties in tracking employment outcomes,skill gaps, and the impact of skilling initiatives",
+      "domainRel": {
+        "AI/ML": 0.1065,
+        "Web": 0.1285,
+        "Hardware": 0.048,
+        "Blockchain": 0.0401,
+        "GIS": 0.1582,
+        "Biotech": 0.1456,
+        "Mobile": 0.1074
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26136",
+      "year": 2026,
+      "title": "Startup friendly public procurement mechanism that enables government departments to identify,pilot, procure,and scale innovative solutions from eligible startups",
+      "domainRel": {
+        "AI/ML": 0.037,
+        "Web": 0.0948,
+        "Hardware": -0.0223,
+        "Blockchain": 0.1147,
+        "GIS": 0.0745,
+        "Biotech": 0.0889,
+        "Mobile": 0.0819
+      },
+      "domainTag": "Cybersecurity"
+    },
+    {
+      "psId": "26137",
+      "year": 2026,
+      "title": "Quantum-Inspired Intelligent Traffic Route Optimization in Transportation Systems Using Metaheuristic Optimization",
+      "domainRel": {
+        "AI/ML": 0.1702,
+        "Web": 0.0025,
+        "Hardware": 0.1382,
+        "Blockchain": 0.056,
+        "GIS": -0.0117,
+        "Biotech": 0.0201,
+        "Mobile": 0.0664
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26138",
+      "year": 2026,
+      "title": "Quantum-Inspired Fuel Consumption Prediction and Green Fleet Optimization",
+      "domainRel": {
+        "AI/ML": 0.1327,
+        "Web": 0.0338,
+        "Hardware": 0.0519,
+        "Blockchain": 0.0452,
+        "GIS": -0.0234,
+        "Biotech": 0.0028,
+        "Mobile": 0.0672
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26139",
+      "year": 2026,
+      "title": "Hybrid Quantum Machine Learning Platform for Early Disease Detection",
+      "domainRel": {
+        "AI/ML": 0.2019,
+        "Web": 0.0694,
+        "Hardware": 0.0776,
+        "Blockchain": 0.1302,
+        "GIS": -0.0207,
+        "Biotech": 0.37,
+        "Mobile": 0.138
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26140",
+      "year": 2026,
+      "title": "AI-Based Interactive Quantum Algorithm Learning Platform",
+      "domainRel": {
+        "AI/ML": 0.3047,
+        "Web": 0.0846,
+        "Hardware": 0.1401,
+        "Blockchain": 0.1862,
+        "GIS": -0.0378,
+        "Biotech": 0.0904,
+        "Mobile": 0.1611
+      },
+      "domainTag": "Web"
+    },
+    {
+      "psId": "26141",
+      "year": 2026,
+      "title": "Quantum-Inspired Cyber Threat Detection for Digital Signature Security",
+      "domainRel": {
+        "AI/ML": 0.0756,
+        "Web": 0.0929,
+        "Hardware": 0.1928,
+        "Blockchain": 0.4951,
+        "GIS": 0.0459,
+        "Biotech": 0.1017,
+        "Mobile": 0.1147
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26142",
+      "year": 2026,
+      "title": "Deep Learning Based Super Resolution Mapping (SRM) from Medium Resolution Satellite Imageries",
+      "domainRel": {
+        "AI/ML": 0.2882,
+        "Web": 0.1299,
+        "Hardware": 0.1632,
+        "Blockchain": 0.0643,
+        "GIS": 0.4476,
+        "Biotech": 0.0225,
+        "Mobile": 0.0995
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26143",
+      "year": 2026,
+      "title": "Leveraging satellite imagery to determine Oil spills at sea along with AIS data correlations to identify vessel responsible for the spill.",
+      "domainRel": {
+        "AI/ML": 0.3491,
+        "Web": 0.1609,
+        "Hardware": 0.2044,
+        "Blockchain": 0.1575,
+        "GIS": 0.3691,
+        "Biotech": 0.1042,
+        "Mobile": 0.0654
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26144",
+      "year": 2026,
+      "title": "Design & Development of a High-Sensitivity Micro barometer Infrasound sensor",
+      "domainRel": {
+        "AI/ML": -0.1124,
+        "Web": 0.0191,
+        "Hardware": 0.1579,
+        "Blockchain": -0.0368,
+        "GIS": 0.0486,
+        "Biotech": 0.0612,
+        "Mobile": 0.0928
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26145",
+      "year": 2026,
+      "title": "AI-Based Detection of Cyber Threats in Unidirectional IP Traffic",
+      "domainRel": {
+        "AI/ML": 0.2565,
+        "Web": 0.1914,
+        "Hardware": 0.2665,
+        "Blockchain": 0.3665,
+        "GIS": 0.1974,
+        "Biotech": 0.1424,
+        "Mobile": 0.1005
+      },
+      "domainTag": "Cybersecurity"
+    },
+    {
+      "psId": "26146",
+      "year": 2026,
+      "title": "AI-Powered Monitoring & Analysis of Bitcoin Transaction Traffic",
+      "domainRel": {
+        "AI/ML": 0.2028,
+        "Web": 0.2463,
+        "Hardware": 0.1979,
+        "Blockchain": 0.5691,
+        "GIS": 0.086,
+        "Biotech": 0.2345,
+        "Mobile": 0.1802
+      },
+      "domainTag": "Cybersecurity"
+    },
+    {
+      "psId": "26147",
+      "year": 2026,
+      "title": "Automated model for analysis of .IQ and .wav files along with signal parameter extraction",
+      "domainRel": {
+        "AI/ML": 0.0498,
+        "Web": 0.0225,
+        "Hardware": 0.1863,
+        "Blockchain": 0.0139,
+        "GIS": 0.0651,
+        "Biotech": 0.1533,
+        "Mobile": 0.079
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26148",
+      "year": 2026,
+      "title": "Creation of scripts/functions with new programming language to commence Computer & Network forensic analysis without triggering security solutions",
+      "domainRel": {
+        "AI/ML": 0.18,
+        "Web": 0.1364,
+        "Hardware": 0.2001,
+        "Blockchain": 0.3781,
+        "GIS": 0.1257,
+        "Biotech": 0.28,
+        "Mobile": -0.0258
+      },
+      "domainTag": "Cybersecurity"
+    },
+    {
+      "psId": "26149",
+      "year": 2026,
+      "title": "Design and Development of an Integrated Secure Data Erasure and Advanced File Recovery Tool for Digital Forensics and Data Sanitization",
+      "domainRel": {
+        "AI/ML": 0.0085,
+        "Web": 0.1474,
+        "Hardware": 0.1247,
+        "Blockchain": 0.3648,
+        "GIS": 0.1253,
+        "Biotech": 0.1986,
+        "Mobile": 0.0442
+      },
+      "domainTag": "Cybersecurity"
+    },
+    {
+      "psId": "26150",
+      "year": 2026,
+      "title": "Development of a Multi-Vendor DVR/NVR Forensic Analysis Tool for Standardized Acquisition, Recovery, and Analysis of Surveillance Evidence.",
+      "domainRel": {
+        "AI/ML": 0.1017,
+        "Web": 0.0845,
+        "Hardware": 0.1826,
+        "Blockchain": 0.3047,
+        "GIS": 0.2317,
+        "Biotech": 0.2459,
+        "Mobile": 0.1393
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26151",
+      "year": 2026,
+      "title": "Dark web threat actor de-anonymization",
+      "domainRel": {
+        "AI/ML": 0.097,
+        "Web": 0.1417,
+        "Hardware": 0.0423,
+        "Blockchain": 0.3991,
+        "GIS": 0.0616,
+        "Biotech": -0.0008,
+        "Mobile": 0.0046
+      },
+      "domainTag": "Cybersecurity"
+    },
+    {
+      "psId": "26152",
+      "year": 2026,
+      "title": "Social Media Analytics",
+      "domainRel": {
+        "AI/ML": 0.2755,
+        "Web": 0.1414,
+        "Hardware": 0.1141,
+        "Blockchain": 0.105,
+        "GIS": 0.0763,
+        "Biotech": 0.1117,
+        "Mobile": 0.0791
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26153",
+      "year": 2026,
+      "title": "AI based Network Attack Forecasting from Network Traffic Data",
+      "domainRel": {
+        "AI/ML": 0.4075,
+        "Web": 0.1288,
+        "Hardware": 0.2136,
+        "Blockchain": 0.3333,
+        "GIS": 0.1328,
+        "Biotech": 0.1688,
+        "Mobile": 0.1104
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26154",
+      "year": 2026,
+      "title": "Gen AI Platform for Automated Content Transformation",
+      "domainRel": {
+        "AI/ML": 0.309,
+        "Web": 0.1597,
+        "Hardware": 0.1525,
+        "Blockchain": 0.1094,
+        "GIS": 0.154,
+        "Biotech": 0.2738,
+        "Mobile": 0.0987
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26155",
+      "year": 2026,
+      "title": "AI-Driven Multi-Vendor Network Security Compliance Auditor",
+      "domainRel": {
+        "AI/ML": 0.1274,
+        "Web": 0.2962,
+        "Hardware": 0.2384,
+        "Blockchain": 0.4371,
+        "GIS": 0.094,
+        "Biotech": 0.1395,
+        "Mobile": 0.1119
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26156",
+      "year": 2026,
+      "title": "Universal Log Pre-processing Framework",
+      "domainRel": {
+        "AI/ML": 0.1114,
+        "Web": 0.3592,
+        "Hardware": 0.1203,
+        "Blockchain": 0.2667,
+        "GIS": 0.1637,
+        "Biotech": 0.2605,
+        "Mobile": 0.1099
+      },
+      "domainTag": "Cybersecurity"
+    },
+    {
+      "psId": "26157",
+      "year": 2026,
+      "title": "Supervisory Analytics Tool for SOC Assessment (SAT-SA)",
+      "domainRel": {
+        "AI/ML": 0.0915,
+        "Web": 0.3001,
+        "Hardware": 0.0648,
+        "Blockchain": 0.2949,
+        "GIS": 0.2292,
+        "Biotech": 0.1147,
+        "Mobile": 0.0029
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26158",
+      "year": 2026,
+      "title": "Single-Pass Drone Video to Accurate 3D Model Generation System",
+      "domainRel": {
+        "AI/ML": 0.1386,
+        "Web": 0.0625,
+        "Hardware": 0.2773,
+        "Blockchain": 0.09,
+        "GIS": 0.4249,
+        "Biotech": 0.1256,
+        "Mobile": 0.1404
+      },
+      "domainTag": "Hardware"
+    },
+    {
+      "psId": "26159",
+      "year": 2026,
+      "title": "SecureMailScope: AI-Assisted Cryptographic Security Posture Assessment for Secure Email Communications",
+      "domainRel": {
+        "AI/ML": 0.1079,
+        "Web": 0.147,
+        "Hardware": 0.2226,
+        "Blockchain": 0.4197,
+        "GIS": 0.1076,
+        "Biotech": 0.0899,
+        "Mobile": 0.1524
+      },
+      "domainTag": "Cybersecurity"
+    },
+    {
+      "psId": "26160",
+      "year": 2026,
+      "title": "AI-Powered IPsec VPN Protocol Analyzer and Security Assessment Framework",
+      "domainRel": {
+        "AI/ML": 0.1551,
+        "Web": 0.1162,
+        "Hardware": 0.2805,
+        "Blockchain": 0.4692,
+        "GIS": 0.1035,
+        "Biotech": 0.0567,
+        "Mobile": 0.0603
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26161",
+      "year": 2026,
+      "title": "Dam Break Inundation Modelling Using Hydrodynamic Modelling of any River",
+      "domainRel": {
+        "AI/ML": 0.0449,
+        "Web": -0.01,
+        "Hardware": -0.0163,
+        "Blockchain": 0.0163,
+        "GIS": 0.1291,
+        "Biotech": 0.0173,
+        "Mobile": 0.0373
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26162",
+      "year": 2026,
+      "title": "AI-Based Detection and Classification of Industrial Fires and Persistent Thermal Sources Using NASA FIRMS, OSM & Satellite Data",
+      "domainRel": {
+        "AI/ML": 0.2985,
+        "Web": 0.1895,
+        "Hardware": 0.2694,
+        "Blockchain": 0.123,
+        "GIS": 0.4485,
+        "Biotech": 0.1652,
+        "Mobile": 0.081
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26163",
+      "year": 2026,
+      "title": "Security Assessment of the World Monitor application",
+      "domainRel": {
+        "AI/ML": 0.1076,
+        "Web": 0.4292,
+        "Hardware": 0.1402,
+        "Blockchain": 0.39,
+        "GIS": 0.2063,
+        "Biotech": 0.1692,
+        "Mobile": 0.2757
+      },
+      "domainTag": "Cybersecurity"
+    },
+    {
+      "psId": "26164",
+      "year": 2026,
+      "title": "Enterprise Cryptographic Discovery & Analysis Tool (ECDAT)",
+      "domainRel": {
+        "AI/ML": 0.071,
+        "Web": 0.2598,
+        "Hardware": 0.2003,
+        "Blockchain": 0.5155,
+        "GIS": 0.1392,
+        "Biotech": 0.2415,
+        "Mobile": 0.1392
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26165",
+      "year": 2026,
+      "title": "AI/NLP Engine to Detect Serious Injury & Fatality (SIF) Precursors in OIL's Unsafe-Act/Unsafe-Condition and Near-Miss Reports",
+      "domainRel": {
+        "AI/ML": 0.2486,
+        "Web": 0.0107,
+        "Hardware": 0.1325,
+        "Blockchain": 0.0844,
+        "GIS": 0.0781,
+        "Biotech": 0.2362,
+        "Mobile": 0.0039
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26166",
+      "year": 2026,
+      "title": "Multi-modal, Sun angle and scale invariant image correspondence using Chandrayaan-2 optical images (OHRC, TMC and IIRS)",
+      "domainRel": {
+        "AI/ML": 0.0967,
+        "Web": 0.0865,
+        "Hardware": 0.0666,
+        "Blockchain": -0.019,
+        "GIS": 0.2222,
+        "Biotech": 0.0304,
+        "Mobile": 0.07
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26167",
+      "year": 2026,
+      "title": "SatQuery AI - An Interactive Vision-Language Assistant for Multimodal Remote Sensing Image Analysis through Text Queries",
+      "domainRel": {
+        "AI/ML": 0.4027,
+        "Web": 0.2292,
+        "Hardware": 0.2563,
+        "Blockchain": 0.0325,
+        "GIS": 0.4948,
+        "Biotech": 0.1099,
+        "Mobile": 0.1243
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26168",
+      "year": 2026,
+      "title": "AI-ML based Intelligent Dead Reckoning system for seamless navigation",
+      "domainRel": {
+        "AI/ML": 0.3126,
+        "Web": 0.0929,
+        "Hardware": 0.3464,
+        "Blockchain": 0.0978,
+        "GIS": 0.3736,
+        "Biotech": 0.1602,
+        "Mobile": 0.2527
+      },
+      "domainTag": "App"
+    },
+    {
+      "psId": "26169",
+      "year": 2026,
+      "title": "Development of an AI-Based Virtual Camera Tracking System for Coarse Alignment of Mobile Free Space Optical Communication (FSOC) Terminals",
+      "domainRel": {
+        "AI/ML": 0.0892,
+        "Web": 0.1182,
+        "Hardware": 0.3799,
+        "Blockchain": 0.0612,
+        "GIS": 0.2393,
+        "Biotech": 0.1139,
+        "Mobile": 0.2058
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26170",
+      "year": 2026,
+      "title": "AI-Driven Anomaly Detection in Component Burn-In & Screening",
+      "domainRel": {
+        "AI/ML": 0.1858,
+        "Web": -0.0081,
+        "Hardware": 0.1114,
+        "Blockchain": 0.1393,
+        "GIS": 0.0545,
+        "Biotech": 0.1551,
+        "Mobile": 0.0301
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26171",
+      "year": 2026,
+      "title": "On-device Visual Perception for Light-weight Browser Agents",
+      "domainRel": {
+        "AI/ML": 0.4335,
+        "Web": 0.3139,
+        "Hardware": 0.2185,
+        "Blockchain": 0.1139,
+        "GIS": 0.1782,
+        "Biotech": 0.0705,
+        "Mobile": 0.1888
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26172",
+      "year": 2026,
+      "title": "Low Latency and Efficient Voice Activator for Edge Devices",
+      "domainRel": {
+        "AI/ML": 0.1729,
+        "Web": 0.1772,
+        "Hardware": 0.4004,
+        "Blockchain": 0.1204,
+        "GIS": 0.1125,
+        "Biotech": 0.087,
+        "Mobile": 0.2587
+      },
+      "domainTag": "IoT"
+    },
+    {
+      "psId": "26173",
+      "year": 2026,
+      "title": "iTantra -Indian Multilingual TTS & STT Aided Neural Transceiver Radio Access for low bitrate links",
+      "domainRel": {
+        "AI/ML": 0.0932,
+        "Web": 0.1004,
+        "Hardware": 0.1752,
+        "Blockchain": 0.0115,
+        "GIS": 0.09,
+        "Biotech": 0.1839,
+        "Mobile": 0.3341
+      },
+      "domainTag": "App"
+    },
+    {
+      "psId": "26174",
+      "year": 2026,
+      "title": "AI Human Activity Recognition for On-board BAS Experiments",
+      "domainRel": {
+        "AI/ML": 0.3528,
+        "Web": 0.2189,
+        "Hardware": 0.322,
+        "Blockchain": 0.1389,
+        "GIS": 0.2694,
+        "Biotech": 0.167,
+        "Mobile": 0.2016
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26175",
+      "year": 2026,
+      "title": "DepthWizard - Single-View Height Estimation and 3D Flythrough",
+      "domainRel": {
+        "AI/ML": 0.1078,
+        "Web": 0.0879,
+        "Hardware": 0.169,
+        "Blockchain": -0.0058,
+        "GIS": 0.4507,
+        "Biotech": 0.0655,
+        "Mobile": 0.0566
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26176",
+      "year": 2026,
+      "title": "ORCA Marine EcOsystem Reasoning with Collaborative Agents",
+      "domainRel": {
+        "AI/ML": 0.0876,
+        "Web": 0.2252,
+        "Hardware": 0.1547,
+        "Blockchain": 0.0943,
+        "GIS": 0.2246,
+        "Biotech": 0.0768,
+        "Mobile": 0.1029
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26177",
+      "year": 2026,
+      "title": "A deployable AI-powered autonomous drone that aids search-and-rescue operations by detecting people and hazards, thereby improving responder safety and reducing victim discovery time.",
+      "domainRel": {
+        "AI/ML": 0.2603,
+        "Web": 0.1065,
+        "Hardware": 0.4488,
+        "Blockchain": 0.2101,
+        "GIS": 0.3797,
+        "Biotech": 0.1866,
+        "Mobile": 0.2551
+      },
+      "domainTag": "Hardware"
+    },
+    {
+      "psId": "26178",
+      "year": 2026,
+      "title": "A resilient, AI-powered environmental monitoring network that provides early detection, localized intelligence, and actionable alerts for floods, forest fires, pollution events, and other environmental hazards common in India, enabling authorities and communities to shift from reactive disaster response to proactive risk prevention.",
+      "domainRel": {
+        "AI/ML": 0.2284,
+        "Web": 0.1606,
+        "Hardware": 0.233,
+        "Blockchain": 0.1961,
+        "GIS": 0.2718,
+        "Biotech": 0.22,
+        "Mobile": 0.1778
+      },
+      "domainTag": "IoT"
+    },
+    {
+      "psId": "26179",
+      "year": 2026,
+      "title": "To build an AI-powered retail intelligence platform that delivers real-time shopper analytics, automated inventory visibility, and proactive queue management through on-device AI,enabling retailers to reduce stock-outs, improve customer experience, optimize staffing, and increase operational efficiency while maintaining privacy and minimizing cloud dependency.",
+      "domainRel": {
+        "AI/ML": 0.3261,
+        "Web": 0.3206,
+        "Hardware": 0.2575,
+        "Blockchain": 0.1916,
+        "GIS": 0.1679,
+        "Biotech": 0.2192,
+        "Mobile": 0.2846
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26180",
+      "year": 2026,
+      "title": "A field-deployable AI-powered Smart Farming Assistant that helps farmers detect crop diseases, pests, nutrient deficiencies, and irrigation needs at an early stage, while improving resilience against droughts, floods, heat waves, and other agricultural risks common in India. The solution should enable higher yields, lower input costs, more efficient water usage, and faster response to emerging threats through real-time on-device intelligence.",
+      "domainRel": {
+        "AI/ML": 0.321,
+        "Web": 0.1981,
+        "Hardware": 0.3996,
+        "Blockchain": 0.1671,
+        "GIS": 0.2481,
+        "Biotech": 0.2283,
+        "Mobile": 0.2654
+      },
+      "domainTag": "App"
+    },
+    {
+      "psId": "26181",
+      "year": 2026,
+      "title": "A secure, AI-powered Personal Health Companion that delivers real-time, privacy-preserving health monitoring and early warning capabilities, helping individuals recognize health risks before they become emergencies. The solution should improve resilience during heat waves, floods, pollution events, and other disasters common in India while enabling continuous health support through on-device intelligence.",
+      "domainRel": {
+        "AI/ML": 0.2036,
+        "Web": 0.2029,
+        "Hardware": 0.2359,
+        "Blockchain": 0.1899,
+        "GIS": 0.1627,
+        "Biotech": 0.3505,
+        "Mobile": 0.334
+      },
+      "domainTag": "App"
+    },
+    {
+      "psId": "26182",
+      "year": 2026,
+      "title": "Automated Attribution of Unknown Cryptocurrency Wallets to Nearest Virtual Asset Service Providers (VASPs) through Blockchain Intelligence APIs",
+      "domainRel": {
+        "AI/ML": 0.1424,
+        "Web": 0.2068,
+        "Hardware": 0.1472,
+        "Blockchain": 0.643,
+        "GIS": 0.1414,
+        "Biotech": 0.172,
+        "Mobile": 0.1113
+      },
+      "domainTag": "Blockchain"
+    },
+    {
+      "psId": "26183",
+      "year": 2026,
+      "title": "Real-Time Identification of Fraud-Linked Cryptocurrency Exchanges from Victim-Reported Suspect Wallet Addresses through Automated Blockchain Analytics",
+      "domainRel": {
+        "AI/ML": 0.1412,
+        "Web": 0.1287,
+        "Hardware": 0.0127,
+        "Blockchain": 0.5887,
+        "GIS": 0.1166,
+        "Biotech": 0.1705,
+        "Mobile": 0.0846
+      },
+      "domainTag": "Blockchain"
+    },
+    {
+      "psId": "26184",
+      "year": 2026,
+      "title": "Development of a Predictive Analytics Framework for Cybercrime Complaints to Forecast Likely Cash Withdrawal Locations in Advance, Enabling Generation of Actionable Intelligence for Timely and Proactive Cybercrime Intervention.",
+      "domainRel": {
+        "AI/ML": 0.1807,
+        "Web": 0.2598,
+        "Hardware": 0.0732,
+        "Blockchain": 0.3226,
+        "GIS": 0.1548,
+        "Biotech": 0.214,
+        "Mobile": 0.084
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26185",
+      "year": 2026,
+      "title": "Helmet mounted conformal antenna for tactical communications in urban CQB environments.",
+      "domainRel": {
+        "AI/ML": -0.0712,
+        "Web": 0.0711,
+        "Hardware": 0.2005,
+        "Blockchain": 0.1226,
+        "GIS": 0.0855,
+        "Biotech": -0.0155,
+        "Mobile": 0.1549
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26186",
+      "year": 2026,
+      "title": "AI-Based Predictive Personnel Stress and Welfare Monitoring System for Uniformed Forces",
+      "domainRel": {
+        "AI/ML": 0.1731,
+        "Web": 0.0825,
+        "Hardware": 0.1159,
+        "Blockchain": 0.0641,
+        "GIS": 0.1171,
+        "Biotech": 0.2085,
+        "Mobile": 0.1206
+      },
+      "domainTag": "App"
+    },
+    {
+      "psId": "26187",
+      "year": 2026,
+      "title": "AI-Based Intelligent Video Analytics Platform for Border Surveillance using existing CCTV Infrastructure.",
+      "domainRel": {
+        "AI/ML": 0.4076,
+        "Web": 0.137,
+        "Hardware": 0.2748,
+        "Blockchain": 0.2701,
+        "GIS": 0.2514,
+        "Biotech": 0.1111,
+        "Mobile": 0.1758
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26188",
+      "year": 2026,
+      "title": "Al-Based Fake Identity & Document Screening System",
+      "domainRel": {
+        "AI/ML": 0.0854,
+        "Web": 0.1487,
+        "Hardware": 0.0272,
+        "Blockchain": 0.2992,
+        "GIS": 0.1634,
+        "Biotech": 0.1265,
+        "Mobile": 0.1379
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26189",
+      "year": 2026,
+      "title": "AI-Powered Criminal Network Analysis System",
+      "domainRel": {
+        "AI/ML": 0.3019,
+        "Web": 0.1934,
+        "Hardware": 0.22,
+        "Blockchain": 0.3637,
+        "GIS": 0.2334,
+        "Biotech": 0.2342,
+        "Mobile": 0.063
+      },
+      "domainTag": "ML"
+    },
+    {
+      "psId": "26190",
+      "year": 2026,
+      "title": "Secure Digital Document Management System for Legal and Investigation Documents",
+      "domainRel": {
+        "AI/ML": 0.1123,
+        "Web": 0.2062,
+        "Hardware": 0.0796,
+        "Blockchain": 0.3717,
+        "GIS": 0.191,
+        "Biotech": 0.191,
+        "Mobile": 0.0903
+      },
+      "domainTag": "Blockchain"
+    },
+    {
+      "psId": "26191",
+      "year": 2026,
+      "title": "Intelligent Identification of Hazard-Based Red Zones, Carrying Capacity Assessment, and Immediate Relocation Needs for Vulnerable Habitations",
+      "domainRel": {
+        "AI/ML": 0.0524,
+        "Web": 0.079,
+        "Hardware": 0.0471,
+        "Blockchain": 0.1122,
+        "GIS": 0.3393,
+        "Biotech": 0.0956,
+        "Mobile": 0.1473
+      },
+      "domainTag": "GIS"
+    },
+    {
+      "psId": "26192",
+      "year": 2026,
+      "title": "Flash Flood Prediction System for Hilly Regions using Multi-Source Data Theme",
+      "domainRel": {
+        "AI/ML": 0.1386,
+        "Web": 0.126,
+        "Hardware": 0.1327,
+        "Blockchain": 0.04,
+        "GIS": 0.3779,
+        "Biotech": 0.1528,
+        "Mobile": 0.1751
+      },
+      "domainTag": "IoT"
+    },
+    {
+      "psId": "26193",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.2521,
+        "Web": 0.1302,
+        "Hardware": 0.1966,
+        "Blockchain": 0.0829,
+        "GIS": 0.1559,
+        "Biotech": 0.1433,
+        "Mobile": 0.1757
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26194",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.1069,
+        "Web": 0.0535,
+        "Hardware": 0.0699,
+        "Blockchain": 0.0231,
+        "GIS": 0.0134,
+        "Biotech": 0.1454,
+        "Mobile": 0.1329
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26195",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.0148,
+        "Web": 0.0547,
+        "Hardware": -0.0005,
+        "Blockchain": 0.0751,
+        "GIS": 0.0549,
+        "Biotech": 0.0425,
+        "Mobile": 0.11
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26196",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.0511,
+        "Web": 0.1076,
+        "Hardware": 0.0989,
+        "Blockchain": 0.0406,
+        "GIS": 0.0393,
+        "Biotech": 0.3232,
+        "Mobile": 0.1883
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26197",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.0769,
+        "Web": 0.1082,
+        "Hardware": 0.1484,
+        "Blockchain": 0.0891,
+        "GIS": 0.1593,
+        "Biotech": 0.1733,
+        "Mobile": 0.1684
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26198",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.1813,
+        "Web": 0.0896,
+        "Hardware": 0.2368,
+        "Blockchain": 0.0746,
+        "GIS": 0.1166,
+        "Biotech": 0.1036,
+        "Mobile": 0.2997
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26199",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.0599,
+        "Web": 0.009,
+        "Hardware": -0.0142,
+        "Blockchain": 0.0656,
+        "GIS": 0.1249,
+        "Biotech": 0.0859,
+        "Mobile": 0.146
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26200",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.1314,
+        "Web": 0.1095,
+        "Hardware": 0.3465,
+        "Blockchain": 0.1177,
+        "GIS": 0.2529,
+        "Biotech": 0.1794,
+        "Mobile": 0.2324
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26201",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.0968,
+        "Web": 0.0887,
+        "Hardware": 0.0463,
+        "Blockchain": 0.1849,
+        "GIS": 0.0381,
+        "Biotech": 0.1309,
+        "Mobile": 0.0562
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26202",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.0789,
+        "Web": 0.0508,
+        "Hardware": 0.0445,
+        "Blockchain": 0.0246,
+        "GIS": 0.0588,
+        "Biotech": 0.0665,
+        "Mobile": 0.115
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26203",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.0778,
+        "Web": 0.0381,
+        "Hardware": -0.0009,
+        "Blockchain": 0.0494,
+        "GIS": 0.0375,
+        "Biotech": 0.0658,
+        "Mobile": 0.0974
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26204",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.098,
+        "Web": 0.1812,
+        "Hardware": 0.1302,
+        "Blockchain": 0.4509,
+        "GIS": 0.1392,
+        "Biotech": 0.1859,
+        "Mobile": 0.1272
+      },
+      "domainTag": "Blockchain"
+    },
+    {
+      "psId": "26205",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.1447,
+        "Web": 0.0839,
+        "Hardware": 0.152,
+        "Blockchain": 0.1094,
+        "GIS": 0.0509,
+        "Biotech": 0.0835,
+        "Mobile": 0.1446
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26206",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.0614,
+        "Web": 0.0702,
+        "Hardware": 0.0285,
+        "Blockchain": 0.0856,
+        "GIS": 0.1435,
+        "Biotech": 0.1382,
+        "Mobile": 0.0717
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26207",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.077,
+        "Web": 0.131,
+        "Hardware": 0.1333,
+        "Blockchain": 0.1018,
+        "GIS": 0.0854,
+        "Biotech": 0.1904,
+        "Mobile": 0.1979
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26208",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.1278,
+        "Web": 0.0531,
+        "Hardware": 0.0714,
+        "Blockchain": 0.0852,
+        "GIS": 0.0825,
+        "Biotech": 0.0927,
+        "Mobile": 0.1583
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26209",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.0918,
+        "Web": 0.0982,
+        "Hardware": 0.1863,
+        "Blockchain": 0.0582,
+        "GIS": 0.1794,
+        "Biotech": 0.0843,
+        "Mobile": 0.1499
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26210",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.2521,
+        "Web": 0.1302,
+        "Hardware": 0.1966,
+        "Blockchain": 0.0829,
+        "GIS": 0.1559,
+        "Biotech": 0.1433,
+        "Mobile": 0.1757
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26211",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.1069,
+        "Web": 0.0535,
+        "Hardware": 0.0699,
+        "Blockchain": 0.0231,
+        "GIS": 0.0134,
+        "Biotech": 0.1454,
+        "Mobile": 0.1329
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26212",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.0148,
+        "Web": 0.0547,
+        "Hardware": -0.0005,
+        "Blockchain": 0.0751,
+        "GIS": 0.0549,
+        "Biotech": 0.0425,
+        "Mobile": 0.11
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26213",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.0511,
+        "Web": 0.1076,
+        "Hardware": 0.0989,
+        "Blockchain": 0.0406,
+        "GIS": 0.0393,
+        "Biotech": 0.3232,
+        "Mobile": 0.1883
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26214",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.0769,
+        "Web": 0.1082,
+        "Hardware": 0.1484,
+        "Blockchain": 0.0891,
+        "GIS": 0.1593,
+        "Biotech": 0.1733,
+        "Mobile": 0.1684
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26215",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.1813,
+        "Web": 0.0896,
+        "Hardware": 0.2368,
+        "Blockchain": 0.0746,
+        "GIS": 0.1166,
+        "Biotech": 0.1036,
+        "Mobile": 0.2997
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26216",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.0599,
+        "Web": 0.009,
+        "Hardware": -0.0142,
+        "Blockchain": 0.0656,
+        "GIS": 0.1249,
+        "Biotech": 0.0859,
+        "Mobile": 0.146
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26217",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.1314,
+        "Web": 0.1095,
+        "Hardware": 0.3465,
+        "Blockchain": 0.1177,
+        "GIS": 0.2529,
+        "Biotech": 0.1794,
+        "Mobile": 0.2324
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26218",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.0968,
+        "Web": 0.0887,
+        "Hardware": 0.0463,
+        "Blockchain": 0.1849,
+        "GIS": 0.0381,
+        "Biotech": 0.1309,
+        "Mobile": 0.0562
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26219",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.0789,
+        "Web": 0.0508,
+        "Hardware": 0.0445,
+        "Blockchain": 0.0246,
+        "GIS": 0.0588,
+        "Biotech": 0.0665,
+        "Mobile": 0.115
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26220",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.0778,
+        "Web": 0.0381,
+        "Hardware": -0.0009,
+        "Blockchain": 0.0494,
+        "GIS": 0.0375,
+        "Biotech": 0.0658,
+        "Mobile": 0.0974
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26221",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.098,
+        "Web": 0.1812,
+        "Hardware": 0.1302,
+        "Blockchain": 0.4509,
+        "GIS": 0.1392,
+        "Biotech": 0.1859,
+        "Mobile": 0.1272
+      },
+      "domainTag": "Blockchain"
+    },
+    {
+      "psId": "26222",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.1447,
+        "Web": 0.0839,
+        "Hardware": 0.152,
+        "Blockchain": 0.1094,
+        "GIS": 0.0509,
+        "Biotech": 0.0835,
+        "Mobile": 0.1446
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26223",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.0614,
+        "Web": 0.0702,
+        "Hardware": 0.0285,
+        "Blockchain": 0.0856,
+        "GIS": 0.1435,
+        "Biotech": 0.1382,
+        "Mobile": 0.0717
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26224",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.077,
+        "Web": 0.131,
+        "Hardware": 0.1333,
+        "Blockchain": 0.1018,
+        "GIS": 0.0854,
+        "Biotech": 0.1904,
+        "Mobile": 0.1979
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26225",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.1278,
+        "Web": 0.0531,
+        "Hardware": 0.0714,
+        "Blockchain": 0.0852,
+        "GIS": 0.0825,
+        "Biotech": 0.0927,
+        "Mobile": 0.1583
+      },
+      "domainTag": null
+    },
+    {
+      "psId": "26226",
+      "year": 2026,
+      "title": "Student Innovation",
+      "domainRel": {
+        "AI/ML": 0.0918,
+        "Web": 0.0982,
+        "Hardware": 0.1863,
+        "Blockchain": 0.0582,
+        "GIS": 0.1794,
+        "Biotech": 0.0843,
+        "Mobile": 0.1499
+      },
+      "domainTag": null
+    }
+  ],
+  "generatedAt": "2026-09-08T22:21:41.005Z"
+}
