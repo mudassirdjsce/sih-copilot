@@ -28,7 +28,8 @@
     {
       "resources": [
         "data/historical_embeddings.json",
-        "data/domain_relevance_2026.json"
+        "data/domain_relevance_2026.json",
+        "icons/*"
       ],
       "matches": ["https://www.sih.gov.in/*"]
     }

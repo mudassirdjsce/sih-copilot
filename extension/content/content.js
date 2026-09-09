@@ -1202,7 +1202,7 @@ function buildFilterSidebar() {
   sidebar.id = "sih-filter-sidebar";
   sidebar.innerHTML =
     "<div class='sih-sidebar-header'>" +
-      "<span class='sih-sidebar-logo'>\uD83C\uDFAF SIH Copilot</span>" +
+      "<span class='sih-sidebar-logo'><img src='" + chrome.runtime.getURL("icons/icon48.png") + "' style='width:16px;height:16px;vertical-align:middle;margin-right:6px;border-radius:50%;' alt='Logo'>SIH Copilot</span>" +
       "<button id='sih-sidebar-collapse' title='Collapse'>\u2039</button>" +
     "</div>" +
     "<div class='sih-sidebar-body'>" +

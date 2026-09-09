@@ -1,4 +1,4 @@
-﻿// SIH Copilot -- Popup Script  v0.3.0
+// SIH Copilot -- Popup Script  v1.0.0
 "use strict";
 
 const STORAGE_KEY_PREFIX = "sih_ps_";
@@ -51,38 +51,7 @@ document.getElementById("btn-open-portal").addEventListener("click", () => {
   chrome.tabs.create({ url: SIH_PORTAL_URL });
 });
 
-document.getElementById("btn-smoke-test").addEventListener("click", async () => {
-  const btn      = document.getElementById("btn-smoke-test");
-  const resultEl = document.getElementById("smoke-result");
-  btn.disabled   = true;
-  btn.textContent = "Running... (first run downloads ~35 MB, please wait)";
-  resultEl.style.display = "none";
-  try {
-    const resp = await chrome.runtime.sendMessage({ type: "SMOKE_TEST" });
-    if (resp && resp.ok) {
-      resultEl.style.display = "block";
-      resultEl.className = "smoke-result smoke-result--pass";
-      resultEl.innerHTML = "<b>PASS</b><br>Model: " + resp.model + "<br>ORT: " + (resp.ortVersion||"?") +
-        "<br>Dim: " + resp.dim + "<br>Inference: " + resp.inferMs + " ms<br>Similarity: " + resp.similarity +
-        "<br><small>First 5: [" + (resp.first5||[]).join(", ") + "]</small>";
-    } else {
-      const errMsg = resp ? resp.error : "No response";
-      const stageMatch = errMsg && errMsg.match(/Stage (\d+) failed: (.+)/);
-      resultEl.style.display = "block";
-      resultEl.className = "smoke-result smoke-result--fail";
-      resultEl.innerHTML = stageMatch
-        ? "<b>FAIL</b><br>Stage " + stageMatch[1] + ": " + stageMatch[2]
-        : "<b>FAIL</b><br>" + (errMsg || "Unknown error");
-    }
-  } catch (err) {
-    resultEl.style.display = "block";
-    resultEl.className = "smoke-result smoke-result--fail";
-    resultEl.innerHTML = "<b>Error</b><br>" + String(err);
-  } finally {
-    btn.disabled = false;
-    btn.textContent = "Run Embedding Smoke Test";
-  }
-});
+
 
 updateStats();
 checkActiveTab();
