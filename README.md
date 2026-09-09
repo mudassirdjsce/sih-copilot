@@ -20,15 +20,33 @@ The official SIH portal lists problem statements with no built-in workflow beyon
 
 ## Installation
 
-### Download ZIP
-1. Go to the [GitHub Repository](https://github.com/mudassirdjsce/sih-copilot).
-2. Click **Code** → **Download ZIP**.
-3. Extract the downloaded ZIP file to a folder on your computer.
-4. Open Chrome and navigate to `chrome://extensions`.
-5. Enable **Developer mode** (toggle in the top right corner).
-6. Click **Load unpacked**.
-7. Select the `extension/` folder from the extracted repository (IMPORTANT: Select the `extension` directory, not the repository root).
+### Option 1 — Download the Latest Release (Recommended)
 
+1. Go to the [Releases](https://github.com/mudassirdjsce/sih-copilot/releases) page.
+2. Open the latest release (for example, **SIH Copilot v1.0.0**).
+3. Under **Assets**, download:
+   `sih-copilot-1.0.0.zip`
+4. Extract the ZIP file to a folder on your computer.
+5. Open Chrome and navigate to:
+   `chrome://extensions`
+6. Enable **Developer mode** using the toggle in the top-right corner.
+7. Click **Load unpacked**.
+8. Select the extracted `sih-copilot-1.0.0` folder — the folder that directly contains `manifest.json`.
+9. Open the official [SIH 2026 problem statements](https://www.sih.gov.in/sih2026PS) page.
+
+SIH Copilot should now appear automatically on the SIH problem-statement portal.
+
+### Option 2 — For Developers
+
+If you want to modify or contribute to the project:
+
+1. Clone or download the repository.
+2. Open Chrome and navigate to `chrome://extensions`.
+3. Enable **Developer mode**.
+4. Click **Load unpacked**.
+5. Select the `extension/` folder inside the cloned repository.
+
+See [How to Contribute/Fork](#how-to-contributefork) for development instructions.
 
 ## How to Use It
 1. Once the extension is loaded, navigate to the official SIH 2026 problem statements page: [https://www.sih.gov.in/sih2026PS](https://www.sih.gov.in/sih2026PS).
