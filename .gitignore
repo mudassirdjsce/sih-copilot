@@ -2,3 +2,14 @@ node_modules/
 .DS_Store
 *.log
 .env
+*.zip
+
+# Internal Development Documents
+AGENTS.md
+ARCHITECTURE.md
+DATA_MODEL.md
+DECISIONS.md
+IMPLEMENTATION_PLAN.md
+PRD.md
+PROGRESS.md
+TEST_PLAN.md
