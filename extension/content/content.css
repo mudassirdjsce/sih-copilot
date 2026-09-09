@@ -35,7 +35,7 @@
   top: 80px;
   left: 0;
   z-index: 999999;
-  width: 248px;
+  width: 220px;
   background: var(--sih-surface);
   border: 1px solid var(--sih-border);
   border-left: none;
@@ -52,7 +52,7 @@
 
 
 #sih-filter-sidebar.sih-sidebar--collapsed {
-  transform: translateX(-192px);
+  transform: translateX(-164px);
 }
 
 .sih-sidebar-header {
@@ -369,38 +369,130 @@
   white-space: nowrap;
 }
 .sih-notes-btn:hover,
-.sih-notes-btn--open {
+.sih-notes-btn--has-note {
   color: var(--sih-accent);
   border-color: var(--sih-accent);
   background: var(--sih-accent-glow);
 }
 
-/* ── Notes panel ── */
-.sih-notes-wrap {
-  margin-top: 6px;
-  animation: sih-fadein .18s ease;
+/* ── Global Notes Modal ── */
+.sih-notes-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  z-index: 9999999; /* Highest to be above everything */
+  /* Invisible overlay to catch clicks outside */
 }
 
-.sih-notes-ta {
-  width: 100%;
-  padding: 8px 10px;
-  background: var(--sih-surface2);
+.sih-notes-modal {
+  position: absolute;
+  width: 500px;
+  background: var(--sih-surface);
   border: 1px solid var(--sih-border);
   border-radius: var(--sih-radius);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  font-family: var(--sih-font);
+  color: var(--sih-text);
+  display: flex;
+  flex-direction: column;
+  animation: sih-fadein .15s ease;
+  overflow: hidden;
+}
+
+.sih-notes-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  background: var(--sih-surface2);
+  border-bottom: 1px solid var(--sih-border);
+}
+
+.sih-notes-modal-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--sih-text);
+}
+
+.sih-notes-modal-close {
+  background: transparent;
+  border: none;
+  color: var(--sih-muted);
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 4px;
+  transition: color 0.15s;
+}
+.sih-notes-modal-close:hover {
+  color: var(--sih-text);
+}
+
+.sih-notes-modal-info {
+  padding: 8px 14px;
+  font-size: 11px;
+  color: var(--sih-muted);
+  background: var(--sih-bg);
+  border-bottom: 1px solid var(--sih-border);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sih-notes-modal-ta {
+  width: 100%;
+  height: 250px;
+  padding: 12px 14px;
+  background: var(--sih-surface);
+  border: none;
   color: var(--sih-text);
   font-family: var(--sih-font);
-  font-size: 12px;
+  font-size: 13px;
   resize: vertical;
   outline: none;
   box-sizing: border-box;
-  transition: border-color .15s, box-shadow .15s;
 }
-.sih-notes-ta:focus {
-  border-color: var(--sih-accent);
-  box-shadow: 0 0 0 3px var(--sih-accent-glow);
-}
-.sih-notes-ta::placeholder {
+.sih-notes-modal-ta::placeholder {
   color: var(--sih-muted);
+}
+
+.sih-notes-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px 14px;
+  background: var(--sih-surface2);
+  border-top: 1px solid var(--sih-border);
+}
+
+.sih-notes-modal-btn {
+  padding: 6px 14px;
+  border-radius: var(--sih-radius);
+  font-family: var(--sih-font);
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.sih-notes-modal-btn--close {
+  background: transparent;
+  border: 1px solid var(--sih-border);
+  color: var(--sih-text);
+}
+.sih-notes-modal-btn--close:hover {
+  background: var(--sih-border);
+}
+
+.sih-notes-modal-btn--save {
+  background: var(--sih-accent);
+  border: 1px solid var(--sih-accent);
+  color: #fff;
+  font-weight: 600;
+}
+.sih-notes-modal-btn--save:hover {
+  background: #4f51cc;
+  border-color: #4f51cc;
 }
 
 @keyframes sih-fadein {

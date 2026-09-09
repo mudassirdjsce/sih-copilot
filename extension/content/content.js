@@ -865,42 +865,153 @@ function createBadge(record, psRecord) {
   return badge;
 }
 
-function createNotesPanel(record, psRecord) {
-  const wrap = document.createElement("div");
-  wrap.className = "sih-notes-wrap";
-  wrap.style.display = "none";
+let _globalNotesModal = null;
+let _currentNotesRecord = null;
+let _currentNotesBtn = null;
+
+function getGlobalNotesModal() {
+  if (_globalNotesModal) return _globalNotesModal;
+
+  const overlay = document.createElement("div");
+  overlay.className = "sih-notes-overlay";
+  overlay.style.display = "none";
+
+  const modal = document.createElement("div");
+  modal.className = "sih-notes-modal";
+
+  const header = document.createElement("div");
+  header.className = "sih-notes-modal-header";
+  
+  const titleSpan = document.createElement("span");
+  titleSpan.className = "sih-notes-modal-title";
+  titleSpan.textContent = "Notes";
+  
+  const closeIcon = document.createElement("button");
+  closeIcon.className = "sih-notes-modal-close";
+  closeIcon.title = "Close";
+  closeIcon.innerHTML = "&times;";
+
+  header.appendChild(titleSpan);
+  header.appendChild(closeIcon);
+
+  const psInfo = document.createElement("div");
+  psInfo.className = "sih-notes-modal-info";
 
   const ta = document.createElement("textarea");
-  ta.className = "sih-notes-ta";
-  ta.placeholder = "Your notes for this PS\u2026";
-  ta.value = psRecord.notes || "";
-  ta.rows = 3;
+  ta.className = "sih-notes-modal-ta";
+  ta.placeholder = "Enter/read the complete note here\u2026";
 
-  let saveTimer;
-  ta.addEventListener("input", function() {
-    clearTimeout(saveTimer);
-    saveTimer = setTimeout(async function() {
-      const cur = record._row._sihRecord || { psId: record.psId, status: "unread", notes: "" };
-      cur.notes = ta.value;
-      record._row._sihRecord = cur;
-      await saveRecord(cur);
-    }, 600);
+  const footer = document.createElement("div");
+  footer.className = "sih-notes-modal-footer";
+
+  const closeBtn = document.createElement("button");
+  closeBtn.className = "sih-notes-modal-btn sih-notes-modal-btn--close";
+  closeBtn.textContent = "Close";
+
+  const saveBtn = document.createElement("button");
+  saveBtn.className = "sih-notes-modal-btn sih-notes-modal-btn--save";
+  saveBtn.textContent = "Save";
+
+  footer.appendChild(closeBtn);
+  footer.appendChild(saveBtn);
+
+  modal.appendChild(header);
+  modal.appendChild(psInfo);
+  modal.appendChild(ta);
+  modal.appendChild(footer);
+  overlay.appendChild(modal);
+  document.body.appendChild(overlay);
+
+  const closeFn = () => {
+    overlay.style.display = "none";
+    _currentNotesRecord = null;
+    _currentNotesBtn = null;
+  };
+
+  closeIcon.addEventListener("click", closeFn);
+  closeBtn.addEventListener("click", closeFn);
+
+  // Close on clicking outside modal
+  overlay.addEventListener("mousedown", (e) => {
+    if (e.target === overlay) closeFn();
   });
 
-  wrap.appendChild(ta);
-  return wrap;
+  saveBtn.addEventListener("click", async () => {
+    if (!_currentNotesRecord) return;
+    const cur = _currentNotesRecord._row._sihRecord || { psId: _currentNotesRecord.psId, status: "unread", notes: "" };
+    cur.notes = ta.value;
+    _currentNotesRecord._row._sihRecord = cur;
+    await saveRecord(cur);
+    if (_currentNotesBtn) {
+      updateNotesBtnText(_currentNotesBtn, cur.notes);
+    }
+    closeFn();
+  });
+
+  _globalNotesModal = { overlay, modal, ta, psInfo };
+  return _globalNotesModal;
 }
 
-function createNotesToggle(notesPanel) {
+function positionModalNearEvent(modal, e) {
+  const btnRect = e.target.getBoundingClientRect();
+  const modalRect = modal.getBoundingClientRect();
+  const vw = window.innerWidth;
+  const vh = window.innerHeight;
+  
+  let top = btnRect.bottom + 8;
+  let left = btnRect.left;
+  
+  if (top + modalRect.height > vh - 10) {
+    top = btnRect.top - modalRect.height - 8;
+  }
+  if (top < 10) top = 10;
+  
+  if (left + modalRect.width > vw - 10) {
+    left = vw - modalRect.width - 10;
+  }
+  if (left < 10) left = 10;
+  
+  modal.style.top = top + "px";
+  modal.style.left = left + "px";
+}
+
+function openGlobalNotesModal(record, psRecord, btn, e) {
+  const gm = getGlobalNotesModal();
+  _currentNotesRecord = record;
+  _currentNotesBtn = btn;
+  
+  gm.psInfo.textContent = "PS " + normalizePSId(record.psId) + " / " + (record.title || "");
+  gm.ta.value = psRecord.notes || "";
+  
+  gm.overlay.style.display = "flex";
+  
+  // Briefly make modal visible but invisible to measure it for positioning
+  gm.modal.style.visibility = "hidden";
+  setTimeout(() => {
+    positionModalNearEvent(gm.modal, e);
+    gm.modal.style.visibility = "visible";
+    gm.ta.focus();
+  }, 0);
+}
+
+function updateNotesBtnText(btn, notes) {
+  if (notes && notes.trim().length > 0) {
+    btn.textContent = "\uD83D\uDCDD Notes +1";
+    btn.classList.add("sih-notes-btn--has-note");
+  } else {
+    btn.textContent = "\uD83D\uDCDD Notes";
+    btn.classList.remove("sih-notes-btn--has-note");
+  }
+}
+
+function createNotesToggle(record, psRecord) {
   const btn = document.createElement("button");
   btn.className = "sih-notes-btn";
-  btn.textContent = "\uD83D\uDCDD Notes";
-  btn.title = "Toggle notes";
+  updateNotesBtnText(btn, psRecord.notes);
+  btn.title = "View/edit notes";
   btn.addEventListener("click", function(e) {
     e.stopPropagation();
-    const isOpen = notesPanel.style.display !== "none";
-    notesPanel.style.display = isOpen ? "none" : "block";
-    btn.classList.toggle("sih-notes-btn--open", !isOpen);
+    openGlobalNotesModal(record, record._row._sihRecord || psRecord, btn, e);
   });
   return btn;
 }
@@ -915,12 +1026,10 @@ async function injectIntoRow(record) {
   const wrap = document.createElement("div");
   wrap.className = "sih-controls";
   const badge      = createBadge(record, psRecord);
-  const notesPanel = createNotesPanel(record, psRecord);
-  const toggle     = createNotesToggle(notesPanel);
+  const toggle     = createNotesToggle(record, psRecord);
   wrap.appendChild(badge);
   wrap.appendChild(toggle);
   firstCell.insertBefore(wrap, firstCell.firstChild);
-  firstCell.appendChild(notesPanel);
 
   // Phase 2: historical similarity badge (non-blocking)
   injectSimilarityBadge(record, firstCell);
