@@ -20,7 +20,7 @@ The official SIH portal lists problem statements with no built-in workflow beyon
 
 ## Installation
 
-### Option A: Download ZIP
+### Download ZIP
 1. Go to the [GitHub Repository](https://github.com/mudassirdjsce/sih-copilot).
 2. Click **Code** → **Download ZIP**.
 3. Extract the downloaded ZIP file to a folder on your computer.
@@ -29,16 +29,6 @@ The official SIH portal lists problem statements with no built-in workflow beyon
 6. Click **Load unpacked**.
 7. Select the `extension/` folder from the extracted repository (IMPORTANT: Select the `extension` directory, not the repository root).
 
-### Option B: Git Clone
-1. Open your terminal or command prompt.
-2. Run the following command:
-   ```bash
-   git clone https://github.com/mudassirdjsce/sih-copilot.git
-   ```
-3. Open Chrome and navigate to `chrome://extensions`.
-4. Enable **Developer mode**.
-5. Click **Load unpacked**.
-6. Navigate into the cloned `sih-copilot` folder and select the `extension/` directory.
 
 ## How to Use It
 1. Once the extension is loaded, navigate to the official SIH 2026 problem statements page: [https://www.sih.gov.in/sih2026PS](https://www.sih.gov.in/sih2026PS).
@@ -48,14 +38,8 @@ The official SIH portal lists problem statements with no built-in workflow beyon
 5. Open the extension popup or settings to configure your Team Fit skills. The Copilot will use these configured skills to score each problem statement.
 
 ## How to Update It
-If you installed using **Option A (ZIP)**:
 1. Download the latest ZIP from the GitHub repository and extract it.
 2. Replace your old folder with the new one.
-3. Go to `chrome://extensions` and click the **Reload** icon on the SIH Copilot extension card.
-
-If you installed using **Option B (Git Clone)**:
-1. Open your terminal and navigate to the `sih-copilot` folder.
-2. Run `git pull` to fetch the latest changes.
 3. Go to `chrome://extensions` and click the **Reload** icon on the SIH Copilot extension card.
 
 ## How to Uninstall It
